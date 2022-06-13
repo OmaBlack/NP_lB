@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ModalStep2 from './components/modal/modalStep2/ModalStep2';
+import ModalStep3 from './components/modal/modalStep3/ModalStep3';
+import LandingPage from './components/LandingPage/LandingPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Routes>
+          <Route path="/page" element={<LandingPage />} />
+          <Route path="/modal-2" element={<ModalStep2 />} />
+          <Route path="/modal-3" element={<ModalStep3 />} />
+        </Routes>
+    </Router>
   );
 }
 

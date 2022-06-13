@@ -1,0 +1,62 @@
+.paycontainer {
+    width: 1442px;
+    height: 367px;
+    background-color:#6B38FB; /*@ 0% #0B69FF @ 100%; */
+    color: #fff;
+    position: relative;
+}
+
+.paywrapper {
+    display: flex;
+    padding-top: 100px;
+}
+.pay{
+    text-align: center;
+    padding-left: 250px;
+}
+
+.pay h1{
+    width: 627px;
+    height: 40px;
+    font-family:'Rubik';
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 40px;
+    line-height: 105%;
+    text-align: center;
+    align-items: Center;
+}
+
+.pay p {
+    width: 70%;
+}
+.paybtn{
+    padding-right: 250px;
+}
+
+.paybtn button {
+    width: 158px;
+    height: 40px;
+    border-radius: 4px;
+    background: #171F46;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+/* button text {
+    width: 113px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 145%;
+    text-align: center;
+    color:#FFFFFF;
+    } */
+
+/* .paycube{
+    position: absolute;
+} */

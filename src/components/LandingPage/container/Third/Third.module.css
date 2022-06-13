@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
+.container {
+    background: #FFFFFF;
+    max-width: 1440px;
+    height: 713px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik';
+    margin:-10rem 0;
+    padding-bottom: 150px;
+}
+
+.third_img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:3rem;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.third_first {
+    display: flex;
+    flex-direction: column;
+    width: 1236px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.third_first h1 {
+    text-align: center;
+}
+
+.third_first p {
+    width: 72%;
+    text-align: center;
+    max-width: 788px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: 'Regular';
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 145%;
+    margin-bottom: 100px;
+}
+
+.loan p {
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.project p {
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.credit p {
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.third_btn button{
+    background-color: #ffffff;
+    border-width: 0;
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    color: #171F46;
+    padding:10px 2.5rem;
+    border:1px solid #D7DFE9;
+  
+}
+
+.third_btn {
+    background:#fff;
+    width: 158px;
+    height: 40px;
+    border-radius: 4px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
