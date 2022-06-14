@@ -15,6 +15,13 @@ import LifeBanklogo4 from './images/LifeBanklogo4.svg';
 import Loan from './images/loan.svg';
 import Project from './images/project.svg';
 import wvector from './images/wvector.svg';
+import Vector from './images/Vector.png';
+import Inbox from './images/Inbox.svg';
+import Iconr from './images/Iconr.svg';
+import sided from './images/sided.svg';
+import sidebarlogo from './images/sidebarlogo.svg';
+import arrowdown from './images/arrowdown.svg';
+import arrowup from './images/arrowup.svg';
 
 
 interface IMG {
@@ -35,6 +42,13 @@ interface IMG {
     Loan: string;
     Project: string;
     wvector: string;
+    Vector: string;
+    Inbox: string;
+    Iconr: string;
+    sided: string;
+    sidebarlogo: string;
+    arrowdown: string;
+    arrowup: string;
 }
 
 export const Images: IMG = {
@@ -54,5 +68,12 @@ export const Images: IMG = {
     LifeBanklogo4, 
     Loan,
     Project, 
-    wvector
+    wvector,
+    Vector,
+    Inbox,
+    Iconr,
+    sided,
+    sidebarlogo,
+    arrowdown,
+    arrowup,
 }

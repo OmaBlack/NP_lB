@@ -13,6 +13,9 @@ function Payment() {
                 <div className={PaymentStyles.paybtn}>
                     <button>Get a loan today!</button>
                 </div>
+
+                <img src={Images.Vector} alt=''className ={PaymentStyles.design}/>
+
             </div>
             <div className={PaymentStyles.paycube}>
              <img src={Images.cube} alt=''/>   

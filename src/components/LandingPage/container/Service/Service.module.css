@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
+.service_container{
+    margin-top: 10rem;
+
+}
+
+.service{
+    display: flex;
+    width:70%;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+.service_text{
+padding: 1rem 0 1rem 8rem;
+width:70%;
+text-align:start;
+}
+.service_text h1{
+font-family: 'Rubik';
+font-style: Bold;
+font-size: 24px;
+line-height: 32px;
+
+}
+.service_text p{
+    font-family:'Rubik';
+    font-size:14px;
+    list-style: 24px;
+    margin-bottom: 2rem;
+}
+.service_btn{
+
+    display: inline;
+   background: #0B69FF;
+
+}
+.service_btn button{
+    padding:13px 15px;
+    color:#fff;
+    background: #0B69FF;
+    border:none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.service_img{
+    width:350px;
+  
+}

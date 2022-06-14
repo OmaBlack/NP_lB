@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
 .paycontainer {
     width: 1442px;
     height: 367px;
@@ -12,7 +14,7 @@
 }
 .pay{
     text-align: center;
-    padding-left: 250px;
+    padding-left: 350px;
 }
 
 .pay h1{
@@ -28,10 +30,20 @@
 }
 
 .pay p {
-    width: 70%;
+    width: 90%;
+    padding-left: 37px;
+    max-width: 585px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 145%;
+    align-items: center;
+    justify-content: center;
 }
 .paybtn{
-    padding-right: 250px;
+    align-items: center;
 }
 
 .paybtn button {
@@ -45,18 +57,17 @@
     
 }
 
-/* button text {
-    width: 113px;
-    height: 24px;
-    font-family: 'Rubik';
-    font-style: Medium;
-    font-size: 14px;
-    line-height: 24px;
-    line-height: 145%;
-    text-align: center;
-    color:#FFFFFF;
-    } */
+.paycube {
+    padding-left: 135px;
+}
 
-/* .paycube{
-    position: absolute;
-} */
+.design{
+    
+    position: absolute; 
+    left: 0;
+    top: 60%;
+    padding:0 50px;
+    width: 300px;
+    
+}
+

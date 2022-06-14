@@ -1,0 +1,60 @@
+.sidebar_container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-origin: border-box;
+}
+
+.side {
+    max-width: 15%;
+    height: 100%; 
+    background: #0051CA;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 1.2rem;
+}
+
+
+.second, .third, .fourth {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.bottom {
+    gap: 0.1rem;
+}
+
+.accordion {
+    width: 239px;
+    border: 1px solid yellow;
+}
+
+.item {
+    background: #0051;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: white;
+    max-width: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
