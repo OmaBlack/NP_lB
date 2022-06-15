@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    border-radius: 7px;
+    background: #FFFFFF;
+    height: 363px;
+    max-width: 691px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    align-items: center;
+    justify-content: center;
+    width: 691px;
+    height: 363px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.content p {
+    width: 55%;
+    font-family: Rubik;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 145%;
+    color: #000000;
+    font-weight: 200;
+    margin-bottom: 1em;
+    margin-top: 0.1em;
+}
+
+.content h1 {
+    font-family: Rubik;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 32px;
+    line-height: 113%;
+    color: #FFB800;
+}
+
+.step2_btn {
+    max-width: 94px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #0B69FF;
+    color: #0B69FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.step2_btn button {
+    max-width: 62px;
+    max-height: 24px;
+    font-family: Rubik;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 145%;
+    background:#0B69FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-width: 0;
+}
+
+@media screen and (max-width: 300px) {
+    .content {
+        transform: scale(0.8);
+    }
+}
+

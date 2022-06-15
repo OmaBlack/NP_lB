@@ -1,0 +1,28 @@
+
+
+.footone {
+    width: 1440px;
+    height: 472px;
+    background:#0051CA;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 123px;
+    color: #fff;
+
+}
+
+.foot6{
+    width: 1440px;
+    height: 50px;
+    background-color: #171F46;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.foot6 p {
+    color: #ffffff;
+  
+}
