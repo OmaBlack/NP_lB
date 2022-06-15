@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    height:70px;
+    justify-content: center;
+}
+
+.nerve_logo{
+    width: 40%;
+}
+
+.logo_image {
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+    margin-top: 1.2em;
+}
+
+.nav_list{
+    width: 60%;
+}
+
+
+.nav_ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_list li {
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 145%;
+    color: #000000;
+    height: 24px;
+    font-weight: bold;
+}
+
+.nav_list li:nth-of-type(1) {
+    width: 87px;
+}
+
+.nav_list li:nth-of-type(2) {
+    width: 60px;
+}
+
+.nav_list li:nth-of-type(3) {
+    width: 62px;
+}
+
+.nav_list li:nth-of-type(4) {
+    width: 76px;
+}
+
+.nav_ul button {
+    width: 145px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #0B69FF;
+    color: #FFFFFF;
+    border-width: 0;
+}
+
+.span {
+    font-family: Rubik;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 145%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
