@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+.container {
+    position: absolute;
+    width: 1054px;
+    height: 608px;
+    left: 300px;
+    top: 124px;
+    background-color: tomato;
+}
+
+.container h1 {
+        color: rgb(172, 80, 80);
+        font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.container p {
+    margin-top: 11px;
+    width: 524px;
+    left: 300px;
+    top: 146px;   
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+
+.main_section{
+    position: absolute;
+    width: 95%;
+    min-height: 860px;
+background: #FFFFFF;
+box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+border-radius: 19px;
+padding: 40px, 38px;
+}
+
+.heading {
+ 
+}
+
+.input_field_container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    margin: 20px 10px;
+}
+
+.input_field_container label{
+    margin-bottom: 10px;
+}
+ 
+.input_field_container select{
+    width: 282px;
+    height: 40px;
+    padding: 0 8px;
+}
+
+
+.input_field_container input{
+    width: 492px;
+    height: 40px;
+    padding: 0 8px;
+}
+
+.extra_info {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    margin: 0px;
+    border:3px solid red;
+}
+
+.extra_info input{
+    width: 402px;
+}

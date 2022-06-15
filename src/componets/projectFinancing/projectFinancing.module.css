@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.financing{
+    position: absolute;
+width: 1054px;
+height: 608px;
+left: 300px;
+top: 124px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+border-radius: 19px;
+}
+
+
+.heading{
+    position: absolute;
+    left: 2rem;
+top: 2rem;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 186px;
+
+}
+
+.success img{
+    margin-left: 36px;
+    margin-right: 92px;
+}
+
+.section_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.first{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+}
+
+.second{
+    margin-top: 31px;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #1DB05F;
+background: #F3FFF8;
+padding: 21px 30px 20px 26px;
+;
+}
+
+.third{
+    width: 529px;
+height: 72px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+margin-bottom: 44px;
+}
+
+
+
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+.btn1{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 192px;
+height: 40px;
+
+/* General/Treva Purple */
+
+background: #6B38FB;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.btn1 img{
+    margin-right: 1rem ;
+}
+
+.btn2{
+
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 168px;
+height: 40px;
+
+/* Main / Blue - Default */
+
+background: #0B69FF;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
