@@ -1,9 +1,9 @@
 import React from 'react';
-import SidebarStyles from './Sidebar.module.css';
+import FundingStyles from './Funding.module.css';
 
-const Funding = ()=> {
+const Funding = () => {
   return (
-    <div className={SidebarStyles.side_container}>
+    <div className={FundingStyles.fund_container}>
         <div>
             <h1>Pay With Nerve</h1>
             <p>You're doing a great job saving lives today!</p>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SidebarStyles from './Sidebar.module.css';
-import { Images } from '../../ComponentImages';
+import { Images } from '../../../ComponentImages';
 
 
 
@@ -26,23 +26,24 @@ const Sidebar = () => {
     <div className = {SidebarStyles.sidebar_container}>
 
          <div className={SidebarStyles.side}>
-             <div className={SidebarStyles.first}>
+             {/* <div className={SidebarStyles.first}>
                 <img src={Images.sidebarlogo} alt='' className= {SidebarStyles.sidebar_logo}/>
-             </div>
+             </div> */}
              <div className={SidebarStyles.bottom}>
-                <div className={SidebarStyles.second}>
+                {/* <div className={SidebarStyles.second}>
                     <img src={Images.sided} alt='' className= {SidebarStyles.sidebar_sided}/>
                     <h6>Dashboard</h6>
-                </div>
+                </div> */}
 
 
 
                 <div className={SidebarStyles.third}>
-                    <img src={Images.Inbox} alt='' className= {SidebarStyles.sidebar_inbox}/>
+                    
                     <div className={SidebarStyles.accordion}>
                         {data.map((item) => (
                             <div key={item.id} className={SidebarStyles.item}> 
                                 <div className={SidebarStyles.title} onClick={() => toggle(item.id)}>
+                                    <img src={Images.Inbox} alt='' className= {SidebarStyles.sidebar_inbox}/>
                                     <h6>{item.title}</h6>
                                     <span>{selected === item.id ? <img src={Images.arrowup} alt="arrowup" /> :  <img src={Images.arrowdown} alt="arrowdown" />}</span>
                                 </div>
@@ -59,10 +60,10 @@ const Sidebar = () => {
 
 
 
-                <div className={SidebarStyles.fourth}>
+                {/* <div className={SidebarStyles.fourth}>
                     <img src={Images.Iconr} alt='' className= {SidebarStyles.sidebar_iconr}/>
                     <h6>Reports</h6>
-                </div>
+                </div> */}
              </div>
             
 
