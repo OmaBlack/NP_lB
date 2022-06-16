@@ -1,11 +1,16 @@
 import React from 'react'
-import Funding from './Funding/Funding'
+import Funding from './Funding/Funding';
+import Welcome from './Welcome/Welcome';
 import DashboardStyles from './Dashboard.module.css'
 
 const Dashboard =() =>{
   return (
     <div className={DashboardStyles.dashcontainer}>
-        <Funding />
+       
+        {/* <Sidebar /> */}
+         <Funding />
+         {/* <Welcome /> */}
+         
     </div>
   )
 }

@@ -1,79 +1,167 @@
 import React, { useState } from 'react'
-import SidebarStyles from './Sidebar.module.css';
+import style from './Sidebar.module.css';
+import { Link } from "react-router-dom"
 import { Images } from '../../../ComponentImages';
 
 
+function Sidebar() {
+    const [show, setShow] = useState(false);
 
-const data = [
-    {
-        id: 1,
-        title: 'Funding',
-        content1: 'Pay With Nerve',
-        content2: 'Project Financing',
-        content3: 'Credit Requests'
-    }
-]
-
-const Sidebar = () => {
-    const [selected, setSelected] = useState<number | null>(0);
-
-    const toggle = (id: number) => {
-        selected === id ? setSelected(null) : setSelected(id);
+    const display = () => {
+        setShow(!show);
     }
 
+    
   return (
+    <div className={style.sidebar}>
+        <div>
+        <img src={Images.sidebarlogo} alt='' />
+        </div>
+        <div className={style.sideTag}>
+            <ul>
+                <li className={style.dashboard}>
+                    <Link to = "/dashboard">
+                        <img src = {Images.sided}  alt=""/>
+                        Dashboard
+                    </Link>
+                </li>
 
-    <div className = {SidebarStyles.sidebar_container}>
+                <li className={style.fund}>
+                    <Link to="#">
+                        <img src = {Images.Inbox}  alt=""/>
+                        <span>Funding</span>
+                        <span className={style.btn} onClick={display}>{show ? <img src={Images.warrowup} alt="warrowup" />  : <img src={Images.warrowdown} alt="warrowdown" /> }</span>
+                    </Link>
+                </li>
+                { show && 
+                    <span className={style.child}>
+                        <Link to="#"><li>Pay With Nerve</li></Link>
+                        <Link to="#"><li>Project Financing</li></Link>
+                        <Link to="#"><li>Credit Requests</li></Link>
+                    </span> 
+                }
+                
+                
 
-         <div className={SidebarStyles.side}>
-             {/* <div className={SidebarStyles.first}>
-                <img src={Images.sidebarlogo} alt='' className= {SidebarStyles.sidebar_logo}/>
-             </div> */}
-             <div className={SidebarStyles.bottom}>
-                {/* <div className={SidebarStyles.second}>
-                    <img src={Images.sided} alt='' className= {SidebarStyles.sidebar_sided}/>
-                    <h6>Dashboard</h6>
-                </div> */}
+                <li className={style.dashboard}>
+                    <Link to = "/reports">
+                        <img src = {Images.Iconr}  alt=""/>
+                        Reports
+                    </Link>
+                </li>
 
+            </ul>
+        </div>
 
-
-                <div className={SidebarStyles.third}>
-                    
-                    <div className={SidebarStyles.accordion}>
-                        {data.map((item) => (
-                            <div key={item.id} className={SidebarStyles.item}> 
-                                <div className={SidebarStyles.title} onClick={() => toggle(item.id)}>
-                                    <img src={Images.Inbox} alt='' className= {SidebarStyles.sidebar_inbox}/>
-                                    <h6>{item.title}</h6>
-                                    <span>{selected === item.id ? <img src={Images.arrowup} alt="arrowup" /> :  <img src={Images.arrowdown} alt="arrowdown" />}</span>
-                                </div>
-                                <div className={selected === item.id ? `${SidebarStyles.content} ${SidebarStyles.show}` : SidebarStyles.content}>
-                                    <p>{item.content1}</p>
-                                    <p>{item.content2}</p>
-                                    <p>{item.content3}</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                    
-                </div>
-
-
-
-                {/* <div className={SidebarStyles.fourth}>
-                    <img src={Images.Iconr} alt='' className= {SidebarStyles.sidebar_iconr}/>
-                    <h6>Reports</h6>
-                </div> */}
-             </div>
-            
-
-         </div>
-
-         <div className = {SidebarStyles.sidebar_content}>
-           
-         </div>
     </div>
   )
 }
 
 export default Sidebar
+
+
+// const Sidebar = () => {
+//   return (
+//     <div className={SidebarStyles.side}> 
+//          <div className={SidebarStyles.top}>
+//              <div className={SidebarStyles.logo}>
+//                  <p>Logo + Nerve</p>
+//              </div>
+//              <div className={SidebarStyles.menu}>
+//                  <div className={SidebarStyles.dash}>
+//                      <p>Dashboard</p>
+//                  </div>
+
+//                  <div className={SidebarStyles.fund}>
+//                     <div className={SidebarStyles.question}><p>Funding</p></div> 
+//                     <div className={SidebarStyles.answer}>
+//                         <p>Pay With Nerve</p>
+//                         <p>Project Financing</p>
+//                         <p>Credit Requests</p>
+//                     </div>
+//                  </div>
+
+//                  <div className={SidebarStyles.result}>
+//                      <p>Results</p>
+//                  </div>
+//              </div>
+//         </div>   
+//     </div>
+//   )
+// }
+
+// export default Sidebar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const Sidebar =()=> {
+//   return (
+//     <div className={SidebarStyles.side}>
+//       <div className={SidebarStyles.sider}>
+//           <div className={SidebarStyles.first}>
+//             <img src={Images.sidebarlogo} alt='' className= {SidebarStyles.sidebar_logo}/>
+//          </div> 
+//          <div className= {SidebarStyles.list}>
+//          <div className={SidebarStyles.side_nav}>
+//                      <img src={Images.Iconr} alt='' className= {SidebarStyles.sidebar_icon}/>
+//                         <ul>
+//                          <li><a href="#">Report</a></li>
+//                          </ul>
+
+//                    </div>
+
+//                  <div className={SidebarStyles.side_nav}>
+//                      <img src={Images.Inbox} alt='' className= {SidebarStyles.sidebar_icon} />
+                     
+//                  <ul>
+
+//                     <li><a href="">Funding</a></li>
+                       
+//                          <li><a href="#">Pay With Nerve</a></li>
+//                          <li><a href="#">Project Financing</a></li>
+//                          <li><a href="#">Credit Requests</a></li>
+                         
+                       
+//                      </ul>
+                     
+//                      </div>
+                
+//                      <div className={SidebarStyles.side_nav}>
+//                      <img src={Images.Iconr} alt='' className= {SidebarStyles.sidebar_icon}/>
+//                      <ul>
+//                          <li><a href="#">Report</a></li>
+//                          </ul>
+//                      </div>
+            
+//          </div>
+//          </div>
+//     </div>
+//   )
+// }
+
+// export default Sidebar;
+

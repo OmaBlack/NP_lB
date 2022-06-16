@@ -22,6 +22,9 @@ import sided from './images/sided.svg';
 import sidebarlogo from './images/sidebarlogo.svg';
 import arrowdown from './images/arrowdown.svg';
 import arrowup from './images/arrowup.svg';
+import warrowup from './images/warrowup.svg';
+import warrowdown from './images/warrowdown.svg';
+
 
 
 interface IMG {
@@ -49,6 +52,8 @@ interface IMG {
     sidebarlogo: string;
     arrowdown: string;
     arrowup: string;
+    warrowup: string;
+    warrowdown: string;
 }
 
 export const Images: IMG = {
@@ -76,4 +81,6 @@ export const Images: IMG = {
     sidebarlogo,
     arrowdown,
     arrowup,
+    warrowup,
+    warrowdown,
 }

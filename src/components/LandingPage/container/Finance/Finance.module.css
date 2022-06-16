@@ -13,12 +13,8 @@
     position:absolute;
     left: 10%;
     z-index: -1;
-     filter: invert(100%);
+    filter: invert(100%);
     bottom :0;
-    
-    
-    
-
 }
 
 
@@ -33,15 +29,10 @@
     background:#fff;
     margin: 0 auto;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
-    
-
-
-
 
 }
 
 .finance_text {
-
     padding:2.5rem 2rem;
     margin-top:15px;
     
@@ -55,7 +46,6 @@
     line-height: 24px;
     line-height: 145%;
     margin-bottom: 35px;
-    
 }
 
 .finance_text h2 {
@@ -78,8 +68,8 @@
     display: flex;
     text-align:start;
     gap: 30px;
-   
 }
+
 .financebtn button{
     padding: 8px 16px 8px 16px;
     border-radius: 4px; 

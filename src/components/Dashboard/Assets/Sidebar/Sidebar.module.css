@@ -1,8 +1,144 @@
-.sidebar_container{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
+.sidebar{
+  background-color: #0051CA;
+  width: 17%;
+  height: 90vh;
+  display: flex;
+  padding: 3rem;
+  gap: 0.5rem;
+  flex-direction: column;
+    
+}
+
+.sideTag{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.sideTag ul{
+    list-style: none;
+    padding-inline-start: 0;
+    margin-top: 3rem;
+}
+
+.sideTag ul li{
+    padding: 1rem 0 1rem 0;
+
+}
+
+.sideTag ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.sideTag ul li a:hover{
+    text-decoration: none;
+    border-left: 4px solid #ffffff;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.fund {
+    width: 239px;
+    position: relative;
+    
+}
+
+.child {
+    color: #FFFFFF;
+    background: #0B69FF;
+}
+
+.child li {
+    color: #FFFFFF;
+}
+
+.btn {
+    position: absolute;
+    left: 90%;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .list {
+     color: #FFFFFF;
+    background:red;
+}
+.list ul li{
+    list-style: none;
+} */
+
+/* .side {
+    background: #0051CA;
+    height: 100vh;
+    width: 20%;
+}
+.sider{
+    border:1px solid red;
+}
+
+.first{
+    padding-left: 2rem;
+    padding-top: 30px;
+    border:2px solid purple;
+}
+
+
+.list ul li {
+    border:2px solid black
+}
+
+.sidebar_icon{
+    padding-right: 10px;
+    border: 2px solid orangered;
+    font-size:70px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sidebar_containe{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-origin: border-box;
 }
 
@@ -111,4 +247,4 @@
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
-}
+} */

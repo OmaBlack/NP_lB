@@ -1,5 +1,6 @@
 import React from 'react'
-import HeaderStyles from './Header.module.css'
+import HeaderStyles from './Header.module.css';
+import { Link } from "react-router-dom";
 import { Images } from '../../../ComponentImages';
 
 const Header = () => {
@@ -12,10 +13,10 @@ const Header = () => {
             </div>
             <div className={HeaderStyles.nav_list}>
                     <ul className={HeaderStyles.nav_ul}>
-                        <li>How It Works</li>
-                        <li>Partners</li>
-                        <li>About Us</li>
-                        <li>Contact Us</li>
+                        <li><Link to="#">How It Works</Link></li>
+                        <li><Link to="#">Partners</Link></li>
+                        <li><Link to="#">About Us</Link></li>
+                        <li><Link to="#">Contact Us</Link></li>
                         <button><span className={HeaderStyles.span}>Get a loan today!</span></button>
                     </ul>
             </div>     
