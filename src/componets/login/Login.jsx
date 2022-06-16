@@ -25,7 +25,7 @@ const Login=()=>{
                         </div>
                         <div className={style.formGroup}>
                             <label html for="password">PASSWORD</label>
-                            <input type="password" name="" id="" placeholder=".........."/>
+                            <input type="password" name="" id="" placeholder="••••••••"/>
                             
                         </div>
                         <div className={style.formGroup}>

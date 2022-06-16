@@ -25,12 +25,12 @@ const Signup=()=>{
                         </div>
                         <div className={style.formGroup}>
                             <label html for="password">PASSWORD</label>
-                            <input type="password" name="" id="" placeholder=".........."/>
+                            <input className={style.password} type="password" name="" id="" placeholder="••••••••"/>
                             
                         </div>
                         <div className={style.formGroup}>
                             <label html for="password">RE-TYPE PASSWORD</label>
-                            <input type="password" name="" id="" placeholder=".........."/>
+                            <input className={style.password} type="password" name="" id="" placeholder="••••••••"/>
                         </div>
                         <div className={style.formGroup}>
                             <button>Create Account</button>
