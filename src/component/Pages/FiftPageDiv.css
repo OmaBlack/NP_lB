@@ -1,0 +1,55 @@
+
+
+.Holder5{
+    margin-top: 150px;
+    justify-self: center;
+    width: 600px;
+    margin-left: 100px;
+    margin-left: 148px;
+
+}
+
+
+.test-Holder5{
+    font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 40px;
+   width: 552px;
+  height: 40px;
+  left: 526px;
+   
+
+}
+
+
+.smallText{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+width: 524px;
+height: 48px;
+left: 526px;
+top: 455px;
+     
+
+}
+
+.btn{
+    background: #0B69FF;
+    border-radius: 2px;
+    padding: 8px 16px;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    font-weight: 500px;
+    width: 200px;
+    height: 40px;
+
+}
+
+.btn-div{
+    margin-top: 50px;
+}

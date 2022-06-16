@@ -1,0 +1,20 @@
+.row-div{
+    background-color: #0051CA;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-div{
+    background-color: white;
+    width: 900px;
+}
+
+.wrapper{
+    display: flex;
+    height: 700px ;
+    width: 1200px;
+    background-color: blueviolet;
+    margin: 30px auto;
+
+}
