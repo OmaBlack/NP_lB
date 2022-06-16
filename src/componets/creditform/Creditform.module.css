@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.formcontainer{
+    position: absolute;
+    left: 300px;
+    top: 80px;
+    height: 89vh;
+    width: 100%;
+    
+}
+
+
+.creditRequestForm{
+
+    
+}

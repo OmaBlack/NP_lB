@@ -1,14 +1,14 @@
 import React from 'react';
-import RequestSubmitted from './componets/request-submitted/RequestSubmitted';
-import ProjectFinancing from './componets/projectFinancing/ProjectFinancing';
-import CreditRequest from './componets/creditRequest/CreditRequest';
-import Header from './componets/header/Header'
+
+import Creditform from './componets/creditform/Creditform';
+import Header from './componets/header/Header';
+import Login from './componets/login/Login';
+import Signup from "./componets/signup/Signup"
 
 function App() {
   return (
     <>
-    <Header />
-    <CreditRequest/>
+    <Signup/>
     </>
 
     
