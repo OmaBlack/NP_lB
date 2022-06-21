@@ -30,7 +30,7 @@ const Facility = ()=> {
             </div>
           </div>
           <div className= {FacilityStyles.facility_btn} >
-             <button><Link to="#">Learn More</Link></button>
+             <button><Link to="#" className={FacilityStyles.ftylink_btn}>Learn More</Link></button>
            </div>
        </div>
    </div>

@@ -43,6 +43,11 @@ line-height: 32px;
     border-radius: 4px;
     font-size: 14px;
 }
+
+.servbtn{
+    text-decoration: none;
+    color: #fff;
+}
 .service_img{
     width:350px;
   

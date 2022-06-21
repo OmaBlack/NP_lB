@@ -13,7 +13,7 @@ const Service = ()=> {
                 <h1>Convenient Standard Health Loans with flexible payment options</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 <div className= {ServiceStyles.service_btn}>
-                    <button><Link to="#">Get a loan today!</Link></button>
+                    <button><Link to="#" className={ServiceStyles.servbtn}>Get a loan today!</Link></button>
                 </div>
             </div>    
         </div>
@@ -23,7 +23,7 @@ const Service = ()=> {
                 <h1>Access customized loans instantly to scale up your facility</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                  <div className= {ServiceStyles.service_btn}>
-                    <button><Link to="#">Get a loan today!</Link></button>
+                    <button><Link to="#" className={ServiceStyles.servbtn}>Get a loan today!</Link></button>
                 </div>
             </div>                    
             
@@ -38,7 +38,7 @@ const Service = ()=> {
                 <h1>Discover the true potential of your health facilities</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 <div className= {ServiceStyles.service_btn}>
-                    <button><Link to="#">Get a loan today!</Link></button>
+                    <button><Link to="#" className={ServiceStyles.servbtn}>Get a loan today!</Link></button>
                 </div>
             </div>
         </div>

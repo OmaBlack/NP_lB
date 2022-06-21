@@ -12,7 +12,7 @@ function Payment() {
                 <p>Get access to instant payment to vendors with tailored loans and financial support services to scale your medical facility</p>
                 
                 <div className={PaymentStyles.paybtn}>
-                    <button><Link to="#">Get a loan today!</Link></button>
+                    <button><Link to="#" className={PaymentStyles.link_paybtn}>Get a loan today!</Link></button>
                 </div>
 
                 <img src={Images.Vector} alt=''className ={PaymentStyles.design}/>

@@ -4,13 +4,21 @@ import style from "./Funding.module.css";
 
 function Funding() {
   return (
-    <div>
-      <div className={style.heading}>
-        <h1 className={style.header}>Pay With Nerve</h1>
-        <p>You are doing a great job saving lives today.</p>
-        <div>
-          <h1>C</h1>
-          <h3>N180,000 MAXIMUM AMOUNT</h3>
+    <div className={style.fund_container}>
+      <div className={style.head_wrapper}>
+        <div className={style.heading}>
+          <h1 className={style.header}>Pay With Nerve</h1>
+          <p>You are doing a great job saving lives today.</p>
+        </div>
+        <div className={style.heading2}>
+          <div className={style.inner}>
+            <div className={style.alphabet}>
+              <h1>C</h1>
+            </div>
+            <div className={style.amount}>
+              <h3>N180,000 MAXIMUM AMOUNT</h3>
+            </div>
+          </div>
           <p>
             Click here to learn <Link to="#">how to increase limit</Link>
           </p>

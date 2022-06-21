@@ -15,37 +15,37 @@ function Sidebar() {
   return (
     <div className={style.sidebar}>
         <div>
-        <img src={Images.sidebarlogo} alt='' />
+        <img src={Images.sidebarlogo} alt=''  className={style.sidelogo}/>
         </div>
         <div className={style.sideTag}>
             <ul>
                 <li className={style.dashboard}>
-                    <Link to = "/dashboard">
-                        <img src = {Images.sided}  alt=""/>
+                    <Link to = "/dashboard" className={style.linkimg}>
+                        <img src = {Images.sided}  alt="" className ={style.Sidebar_icon}/>
                         Dashboard
                     </Link>
                 </li>
 
                 <li className={style.fund}>
-                    <Link to="#">
-                        <img src = {Images.Inbox}  alt=""/>
+                    <Link to="#" className={style.linkimg}>
+                        <img src = {Images.Inbox}  alt="" className ={style.Sidebar_icon}/>
                         <span>Funding</span>
                         <span className={style.btn} onClick={display}>{show ? <img src={Images.warrowup} alt="warrowup" />  : <img src={Images.warrowdown} alt="warrowdown" /> }</span>
                     </Link>
                 </li>
                 { show && 
-                    <span className={style.child}>
-                        <Link to="#"><li>Pay With Nerve</li></Link>
-                        <Link to="#"><li>Project Financing</li></Link>
-                        <Link to="#"><li>Credit Requests</li></Link>
-                    </span> 
+                    <div className={style.child}>
+                        <Link to="#" className ={style.linkchild}><li><h2>Pay With Nerve</h2></li></Link>
+                        <Link to="#" className ={style.linkchild}><li><h2>Project Financing</h2></li></Link>
+                        <Link to="#" className ={style.linkchild}><li><h2>Credit Requests</h2></li></Link>
+                    </div> 
                 }
                 
                 
 
                 <li className={style.dashboard}>
-                    <Link to = "/reports">
-                        <img src = {Images.Iconr}  alt=""/>
+                    <Link to = "/reports" className={style.linkimg}>
+                        <img src = {Images.Iconr}  alt="" className ={style.Sidebar_icon}/>
                         Reports
                     </Link>
                 </li>

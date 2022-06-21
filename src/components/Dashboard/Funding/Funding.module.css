@@ -3,6 +3,39 @@
 *{
     font-family: 'Rubik';
 }
+
+.head_wrapper{
+    display: flex;
+    margin: 0 auto;
+}
+
+.heading{
+    margin-left: 10rem;
+}
+
+.heading2{  
+    margin-left: 60rem;
+}
+.inner{
+    display: flex;
+    background-color: #CAE8D6;
+}
+.alphabet > h1{
+    width: 39px;
+    height: 36px;
+    background-color: #2DCA73;
+    color: #FFFFFF;
+    padding:0.5rem 0 0.5rem 1rem;
+    margin-left: 1rem;
+
+}
+
+.amount{
+    color: #2E6D48;
+    width: 49%;
+    margin-left: 20px;
+}
+
 .creditRequestForm{
    
     padding: 0rem 2.3rem;

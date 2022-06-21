@@ -53,8 +53,12 @@
     background: #171F46;
     border: none;
     color: #fff;
-    font-size: 14px;
-    
+    font-size: 14px;  
+}
+
+.link_paybtn{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .paycube {
