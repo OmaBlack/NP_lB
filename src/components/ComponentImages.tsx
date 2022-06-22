@@ -26,6 +26,7 @@ import warrowup from './images/warrowup.svg';
 import warrowdown from './images/warrowdown.svg';
 import redarrow from './images/redarrow.svg';
 import sidearrow from './images/sidearrow.svg';
+import line from './images/line.svg';
 
 
 
@@ -59,6 +60,7 @@ interface IMG {
     warrowdown: string;
     redarrow: string;
     sidearrow: string;
+    line: string;
 }
 
 export const Images: IMG = {
@@ -90,4 +92,5 @@ export const Images: IMG = {
     warrowdown,
     redarrow,
     sidearrow,
+    line,
 }

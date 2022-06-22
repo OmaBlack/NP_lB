@@ -4,17 +4,24 @@
     font-family: 'Rubik';
 }
 
+.fund_container{
+    height: 100vh;
+    position: relative;
+    width: 83%;
+    left: 326px;
+}
 .head_wrapper{
     display: flex;
     margin: 0 auto;
 }
 
 .heading{
-    margin-left: 10rem;
+    margin:2rem 0 0 2.3rem;
 }
 
 .heading2{  
-    margin-left: 60rem;
+    margin:2rem 0 0 50rem;
+    
 }
 .inner{
     display: flex;
@@ -27,14 +34,23 @@
     color: #FFFFFF;
     padding:0.5rem 0 0.5rem 1rem;
     margin-left: 1rem;
-
 }
-
 .amount{
     color: #2E6D48;
     width: 49%;
     margin-left: 20px;
 }
+
+.clicklearn{
+    color: #B5B7C4;
+
+}
+
+.increase{
+    color: #171F46;
+}
+
+
 
 .creditRequestForm{
    
@@ -81,7 +97,62 @@ select{
     width: 30.75rem;
 }
 
+.pending {
+    transform: translateY(50%);
+}
+.radios{
+    max-width: 20%;
+    display: flex;        
+    display: -ms-flexbox;
+}
+.radios label:nth-of-type(1){
+    padding-right: 3rem;
+}
 
+.yes{
+    position: relative;
+}
+
+.yes span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.no{
+    width: 5rem;
+    position: relative;
+}
+
+.no span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.fundbtn{
+    width: 133px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #0B69FF;
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content:center;
+    -ms-justify-content:center;
+    align-items:center;
+    -ms-align-items:center;
+    margin-top: 3rem;
+}
+.fundbtn button{
+    background-color: #0B69FF;
+    border: none;
+    
+}
+.btntext{
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 
