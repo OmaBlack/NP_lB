@@ -19,14 +19,14 @@ text-align:start;
 .service_text h1{
 font-family: 'Rubik';
 font-style: Bold;
-font-size: 24px;
-line-height: 32px;
+font-size: 1.5rem;
+line-height: 2rem;
 
 }
 .service_text p{
     font-family:'Rubik';
-    font-size:14px;
-    list-style: 24px;
+    font-size:0.875rem;
+    list-style: 1.5rem;
     margin-bottom: 2rem;
 }
 .service_btn{
@@ -36,12 +36,12 @@ line-height: 32px;
 
 }
 .service_btn button{
-    padding:13px 15px;
+    padding:0.8125rem 0.9375rem;
     color:#fff;
     background: #0B69FF;
     border:none;
-    border-radius: 4px;
-    font-size: 14px;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
 }
 
 .servbtn{
@@ -49,6 +49,6 @@ line-height: 32px;
     color: #fff;
 }
 .service_img{
-    width:350px;
+    width: 21.875rem;
   
 }

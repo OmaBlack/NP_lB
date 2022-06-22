@@ -6,9 +6,10 @@
 
 .fund_container{
     height: 100vh;
-    position: relative;
+    position: fixed;
     width: 83%;
-    left: 326px;
+    left: 15.75rem;
+    top: 3.75rem;
 }
 .head_wrapper{
     display: flex;
@@ -17,10 +18,21 @@
 
 .heading{
     margin:2rem 0 0 2.3rem;
+
+}
+.header{
+    font-family: 'Rubik';
+    font-style: 'Regular';
+    font-size: 2rem;
+    line-height: 2.5rem;
+    line-height: 105%;
+    width: 18.75rem;
 }
 
+
+
 .heading2{  
-    margin:2rem 0 0 50rem;
+    margin:2rem 0 0 25rem;
     
 }
 .inner{
@@ -28,8 +40,8 @@
     background-color: #CAE8D6;
 }
 .alphabet > h1{
-    width: 39px;
-    height: 36px;
+    width: 2.4375rem;
+    height: 2.25rem;
     background-color: #2DCA73;
     color: #FFFFFF;
     padding:0.5rem 0 0.5rem 1rem;
@@ -38,7 +50,7 @@
 .amount{
     color: #2E6D48;
     width: 49%;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .clicklearn{
@@ -98,7 +110,7 @@ select{
 }
 
 .pending {
-    transform: translateY(50%);
+    transform: translateY(30%);
 }
 .radios{
     max-width: 20%;
@@ -130,8 +142,8 @@ select{
     left: 40%;
 }
 .fundbtn{
-    width: 133px;
-    height: 40px;
+    width: 8.3125rem;
+    height: 2.5rem;
     border-radius: 4px;
     background-color: #0B69FF;
     display: flex;
@@ -142,7 +154,7 @@ select{
     -ms-justify-content:center;
     align-items:center;
     -ms-align-items:center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .fundbtn button{
     background-color: #0B69FF;

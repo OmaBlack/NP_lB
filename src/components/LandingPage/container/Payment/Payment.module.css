@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
 
 .paycontainer {
-    width: 1442px;
-    height: 367px;
+    width: 90.125rem;
+    height: 22.9375rem;
     background-color:#6B38FB; /*@ 0% #0B69FF @ 100%; */
     color: #fff;
     position: relative;
@@ -10,20 +10,20 @@
 
 .paywrapper {
     display: flex;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .pay{
     text-align: center;
-    padding-left: 350px;
+    padding-left: 21.875rem;
 }
 
 .pay h1{
-    width: 627px;
-    height: 40px;
+    width: 31.1875rem;
+    height: 2.5rem;
     font-family:'Rubik';
     font-style: Medium;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 2.5rem;
     line-height: 105%;
     text-align: center;
     align-items: Center;
@@ -31,13 +31,13 @@
 
 .pay p {
     width: 90%;
-    padding-left: 37px;
-    max-width: 585px;
-    height: 48px;
+    padding-left: 2.3125rem;
+    max-width: 36.5625rem;
+    height: 3rem;
     font-family: 'Rubik';
     font-style: Medium;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     line-height: 145%;
     align-items: center;
     justify-content: center;
@@ -47,13 +47,13 @@
 }
 
 .paybtn button {
-    width: 158px;
-    height: 40px;
-    border-radius: 4px;
+    width: 9.875rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
     background: #171F46;
     border: none;
     color: #fff;
-    font-size: 14px;  
+    font-size: 0.875rem;  
 }
 
 .link_paybtn{
@@ -62,7 +62,7 @@
 }
 
 .paycube {
-    padding-left: 135px;
+    padding-left: 8.4375rem;
 }
 
 .design{
@@ -70,8 +70,8 @@
     position: absolute; 
     left: 0;
     top: 60%;
-    padding:0 50px;
-    width: 300px;
+    padding:0 3.125rem;
+    width: 18.75rem;
     
 }
 

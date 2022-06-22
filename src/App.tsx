@@ -9,23 +9,24 @@ import Welcome from './components/Dashboard/Welcome/Welcome';
 import Sidebar from './components/Assets/Sidebar/Sidebar';
 
 function App() {
+  const location = window.location.pathname;
   return (
-    <Router>
-        <div>
-          <Sidebar />
-          <Routes>
+  
+    <div>
+      <Router>
+        {location.includes("/funding") && (<Sidebar />)}
+        {location.includes("/welcome") && (<Sidebar />)}
+        <Routes>
             <Route path="/funding" element={<Funding />} />
             <Route path="/welcome" element={<Welcome />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/page" element={<LandingPage />} />
+            <Route path="/modal-2" element={<ModalStep2 />} />
+            <Route path="/modal-3" element={<ModalStep3 />} />
           </Routes>
-        </div>
+      </Router>
 
-        <Routes>
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/page" element={<LandingPage />} />
-          <Route path="/modal-2" element={<ModalStep2 />} />
-          <Route path="/modal-3" element={<ModalStep3 />} />
-        </Routes>
-    </Router>
+    </div>
   );
 
 }

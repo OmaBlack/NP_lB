@@ -1,22 +1,22 @@
 .container {
-    width: 1439px;
-    height: 437px;
+    width: 89.9375rem;
+    height: 27.3125rem;
     background-color: #FFFFFF;
 }
 
 .pheader{
     text-align: center;
-    padding-top:113px;
+    padding-top:7.0625rem;
     font-family: 'Rubik';
     font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color:#000000;
 }
 
 .pimg {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 50px;
+    padding-top: 3.125rem;
 
 }

@@ -1,19 +1,19 @@
 
 
 .footone {
-    width: 1440px;
-    height: 472px;
+    width: 90rem;
+    height: 29.5rem;
     background:#0051CA;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 123px;
+    padding-top: 7.6875rem;
     color: #fff;
 
 }
 
 .foot6{
-    width: 1440px;
-    height: 50px;
+    width: 90rem;
+    height: 3.125rem;
     background-color: #171F46;
     margin: 0;
     display: flex;

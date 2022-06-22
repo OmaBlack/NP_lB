@@ -14,10 +14,10 @@
     justify-content: center;
 }
 .container {
-    border-radius: 7px;
+    border-radius: 0.4375rem;
     background: #FFFFFF;
-    height: 363px;
-    max-width: 691px;
+    height: 22.6875rem;
+    max-width: 43.1875rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,18 +30,18 @@
     max-width: 70vw;
     align-items: center;
     justify-content: center;
-    width: 691px;
-    height: 363px;
+    width: 43.1875rem;
+    height: 22.6875rem;
     text-align: center;
     background: #FFFFFF;
 }
 
 .content p {
     width: 65%;
-    font-family: Rubik;
-    font-style: Regular;
-    font-size: 14px;
-    line-height: 24px;
+    font-family: 'Rubik';
+    font-style: 'Regular';
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     line-height: 145%;
     color: #000000;
     font-weight: 200;
@@ -52,16 +52,16 @@
 .content h1 {
     font-family:'Rubik';
     font-style: Medium;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     line-height: 113%;
     color: #171F46;
 }
 
 .step2_btn {
-    max-width: 94px;
-    height: 40px;
-    border-radius: 4px;
+    max-width: 5.875rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
     background-color: #0B69FF;
     color: #0B69FF;
     display: flex;
@@ -71,20 +71,23 @@
 }
 
 .step2_btn button {
-    max-width: 62px;
-    max-height: 24px;
+    max-width: 3.875rem;
+    max-height: 1.5rem;
     font-family: 'Rubik';
     font-style: Medium;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     line-height: 145%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background:#0B69FF;
     color: #FFFFFF;
     font-weight: bold;
     border-width: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 34.375rem) {
     .container {
         transform: scale(0.7);
     }
@@ -98,7 +101,7 @@
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 18.75rem) {
     .container {
         transform: scale(0.6);
     }
