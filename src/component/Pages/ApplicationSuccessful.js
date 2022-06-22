@@ -1,6 +1,6 @@
 import React from "react";
-import '../component/FiftPageDiv.css';
-import circle from '../images/circle.png';
+import './ApplicationSuccessful.css';
+import circle from '../../Images/circle.png';
 
 
 

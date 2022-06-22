@@ -1,10 +1,10 @@
 import React from 'react';
-import '../component/TemplateHolder.css';
-import Indicator from  './Indicator3.js';
-import SideBarText from './SideBarText';
-import Nerve from './Nerve.js';
-import Chart from './Chart.js';
-import ThirdPageDiv from './ThirdPageDiv';
+import './FinancialPageTemp.css';
+import Indicator from  '../Indicator/Indicator.js';
+import SideBarText from '../SideBar/SideBarText.js';
+import Nerve from '../Nerve/Nerve.js';
+import Chart from '../Chart/Chart.js';
+import ThirdPageDiv from '../Pages/FinancialPage';
 
 const TemplateHolder3 =()=>{
 

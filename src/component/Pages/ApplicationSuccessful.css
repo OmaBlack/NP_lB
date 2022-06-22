@@ -37,7 +37,7 @@ top: 455px;
 }
 
 .btn{
-    background: #0B69FF;
+    background: var(--deep-blue);
     border-radius: 2px;
     padding: 8px 16px;
     box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);

@@ -52,7 +52,7 @@ color: #7E858E;
     height: 169px;
     width: 700px;
     margin-top: 9px;
-    border: 1px dashed #D7DFE9;
+    border: 1px dashed var(--cream);
     border-radius: 2px;
 }
 
@@ -66,11 +66,11 @@ color: #7E858E;
 .button1{
     width: 100px;
     border-radius: 4px;
-    background:white ;
+    background:var(--white-colour) ;
     border-style: none;
     color:black;
     font-weight: 500px;
-    border: 2px solid #D7DFE9;
+    border: 2px solid var(--cream);
     text-align: center;
     width: 140px;
     height: 40px;
@@ -82,9 +82,9 @@ color: #7E858E;
 .button2{
     width: 100px;
     border-radius: 4px;
-    background:#0B69FF ;
+    background: var(--deep-blue) ;
     border-style: none;
-    color: white;
+    color: var(--white-colour);
     font-weight: 500px;
     margin-left: 10px;
     width: 140px;

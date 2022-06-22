@@ -9,7 +9,17 @@
     margin-right: auto;
 }
 
-h4{
+.indicator a{
+    text-decoration: none;
+
+}
+
+.indicator .active{
+    opacity: 1;
+    
+}
+
+/* h4{
     margin-left: 15px;
     height: 24px;
     font-size: 14px;
@@ -23,7 +33,7 @@ h5{
     font-family: 'Rubik' ;
     font-weight: 500; 
     line-height: 24px;
-}
+} */
 
 .num1{
     margin-left: 9px;
@@ -54,7 +64,7 @@ h5{
 
 }
 
-img{
+.indc img{
     margin-left: 10px;
     margin-top: 15px;
 }
@@ -87,6 +97,8 @@ img{
 
 .indc{
     align-items: center;
+    text-align: center;
+    opacity: .6;
     
 }
 

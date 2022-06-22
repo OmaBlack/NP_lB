@@ -1,5 +1,5 @@
 import React from "react";
-import '../component/ThirdPageDiv.css';
+import './FinancialPage.css';
 
 
 

@@ -1,5 +1,5 @@
 import React from "react";
-import '../component/SecondPageCentered.css'
+import './InformationPage.css'
 
 
 

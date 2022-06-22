@@ -15,7 +15,7 @@
     margin-bottom: 25px;
     margin-top: 15px;
     line-height: 20px;
-    color: #000000;
+    color: var(--black-color2);
 
 }
 
@@ -58,8 +58,8 @@
 #fac{
     width: 280px;
     height: 20px;
-    border: 1px solid #D7DFE9;
-    color:#FFFFFF;
+    border: 1px solid var(--cream);
+    color: var(--white-colour);
     border-radius:4px ;
 
 }
@@ -67,8 +67,8 @@
 #fac-type{
     width: 280px;
     height: 20px;
-    border: 1px solid #D7DFE9;
-    background:#FFFFFF;
+    border: 1px solid var(--cream);
+    background: var(--white-colour);
 
     border-radius: 4px;
 
@@ -88,8 +88,8 @@
 
 #add{
     width: 590px;
-    border: 1px solid #D7DFE9;
-    background:#FFFFFF;
+    border: 1px solid var(--cream);
+    background: var(--white-colour);
     height: 60px;
     box-sizing: border-box;
 }
@@ -150,24 +150,24 @@
 
 
 #for-country{
-    border: 1px solid #D7DFE9;
-    background:#FFFFFF;
+    border: 1px solid var(--cream);
+    background: var(--white-colour);
     border-radius:4px ;
     height: 25px;
 
 }
 
 #for-state{
-    border: 1px solid #D7DFE9;
-    background:#FFFFFF;
+    border: 1px solid var(--cream);
+    background: var(--white-colour);
     border-radius:4px ;
     height: 25px;
 
 }
 
 #for-city{
-    border: 1px solid #D7DFE9;
-    background:#FFFFFF;
+    border: 1px solid var(--cream);
+    background: var(--white-colour);
     border-radius:4px ;
     height: 25px;
 
@@ -184,9 +184,9 @@
     width: 100px;
     border-radius: 4px;
     height: 25px;
-    background:white ;
+    background: var(--white-colour) ;
     border-style: none;
-    border: 1px solid #D7DFE9;
+    border: 1px solid var(--cream);
     background:#FFFFFF;
     border-radius:4px ;
     color: black;
@@ -199,9 +199,9 @@
     width: 100px;
     border-radius: 4px;
     height: 25px;
-    background:#0B69FF ;
+    background: var(--deep-blue) ;
     border-style: none;
-    color: white;
+    color: var(--white-colour);
     font-weight: 500px;
 
 }

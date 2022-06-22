@@ -1,12 +1,11 @@
 import React from 'react';
-import '../component/TemplateHolder.css';
-import Indicator from  './Indicator.js';
-import SideBarText from './SideBarText';
-import Nerve from './Nerve.js';
-import Chart from './Chart.js';
-import StartCenteredDiv from './StartCenteredDiv';
+import './ApplicationSuccessfulTemp.css';
+import SideBarText from '../SideBar/SideBarText.js';
+import Nerve from '../Nerve/Nerve.js';
+import Chart from '../Chart/Chart.js';
+import FiftPageDiv from '../Pages/ApplicationSuccessful';
 
-const TemplateHolder =()=>{
+const TemplateHolder5 =()=>{
 
     return(
 
@@ -19,8 +18,7 @@ const TemplateHolder =()=>{
                         <Chart/>
                     </div>
                     <div className='column-div'>
-                        <Indicator/>
-                        <StartCenteredDiv/>
+                        <FiftPageDiv/>
                     </div>
                 </div>
             </div>    
@@ -28,4 +26,4 @@ const TemplateHolder =()=>{
     );
 }
 
-export default TemplateHolder;
+export default TemplateHolder5;

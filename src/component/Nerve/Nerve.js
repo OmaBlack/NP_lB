@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../images/logo.png';
-import  '../component/Nerve.css';
+import logo from '../../Images/logo.png';
+import  './Nerve.css';
 
 
 const Nerve = ()=> {

@@ -1,20 +1,29 @@
 
-import TemplateHolder5 from './component/TemplateHolder5';
-import "./styles/global.css"
+import TemplateHolder from './component/TemplateHolder/StartApplTemp';
+import TemplateHolder2 from './component/TemplateHolder/InformationPageTemp';
+import TemplateHolder3 from './component/TemplateHolder/FinancialPageTemp';
+import TemplateHolder4 from './component/TemplateHolder/CalculateCreditTemp';
+import TemplateHolder5 from './component/TemplateHolder/ApplicationSuccessfulTemp';
+import "./Styles/global.css"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
 
 
   return (
     <div className='App'>
-      {/* <TemplateHolder/> */}
-       {/* <TemplateHolder2/>  */}
-       {/* <TemplateHolder3/> */}
-       {/* <TemplateHolder4/> */}
-       <TemplateHolder5/>
-    
+      <Router>
+        <Routes>
+          <Route path='/' element={<TemplateHolder/>}/>
+          <Route path='/getInstanceLoan' element={<TemplateHolder2/>}/>
+          <Route path='/additionalInformation' element={<TemplateHolder3/>}/>
+          <Route path='/calculateCredit' element={<TemplateHolder4/>}/>
+          <Route path='/successful' element={<TemplateHolder5/>}/> 
+        </Routes>
+      </Router>
     </div>
   );
+  
 }
 
 export default App;

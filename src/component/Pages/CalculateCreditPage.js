@@ -1,5 +1,5 @@
 import React from "react";
-import '../component/FourthPageDiv.css';
+import './CalculateCreditPage.css';
 
 
 const FourthPageDiv = ()=> {
