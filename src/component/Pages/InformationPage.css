@@ -59,7 +59,7 @@
     width: 280px;
     height: 20px;
     border: 1px solid var(--cream);
-    color: var(--white-colour);
+    color: #000;
     border-radius:4px ;
 
 }

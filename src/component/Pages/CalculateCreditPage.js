@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import './CalculateCreditPage.css';
 
 
@@ -19,8 +20,13 @@ const FourthPageDiv = ()=> {
                     </form>
                 </div>
                 <div className="div-butt">
+                    <Link to='/additionalInformation'>
                     <button className="button1" placeholder="proceed">Proceed</button>
+                    </Link>
+
+                    <Link to='/successful'>
                     <button className="button2" placeholder="Next">Next</button>
+                    </Link>
                 </div>
             </div>
 

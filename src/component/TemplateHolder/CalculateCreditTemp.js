@@ -4,7 +4,7 @@ import Indicator from  '../Indicator/Indicator.js';
 import SideBarText from '../SideBar/SideBarText.js';
 import Nerve from '../Nerve/Nerve.js';
 import Chart from '../Chart/Chart.js';
-import FourthPageDiv from '../Pages/CalculateCreditPage.css';
+import FourthPageDiv from '../Pages/CalculateCreditPage';
 
 const TemplateHolder4 =()=>{
 
