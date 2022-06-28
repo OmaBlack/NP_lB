@@ -1,20 +1,20 @@
 
 
 .footone {
-    width: 1440px;
-    height: 472px;
-    background:#0051CA;
+    width: 90rem;
+    height: 29.5rem;
+    background: var(--myColor_10);
     display: flex;
     justify-content: space-evenly;
-    padding-top: 123px;
-    color: #fff;
+    padding-top: 7.6875rem;
+    color: var(--myColor_2);
 
 }
 
 .foot6{
-    width: 1440px;
-    height: 50px;
-    background-color: #171F46;
+    width: 90rem;
+    height: 3.125rem;
+    background-color: var(--myColor_6);
     margin: 0;
     display: flex;
     align-items: center;
@@ -23,6 +23,6 @@
 }
 
 .foot6 p {
-    color: #ffffff;
+    color: var(--myColor_2);
   
 }

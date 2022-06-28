@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
 
 .faqcontainer{
-    width: 1439px;
-    height: 620px;
-    background: #FFFFFF;
-    display: flex;
+    width: 89.9375rem;
+    height: 38.75rem;
+    background: var(--myColor_2);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -19,13 +18,13 @@
 }
 
 .header h2 {
-    height: 32px;
+    height: 2rem;
     font-family: 'Rubik';
     font-style: Bold;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     line-height: 113%;
-    color: #000000;
+    color: var(--myColor_3);
     font-weight:bold;
     transform: scale(1.2);
 }
@@ -40,19 +39,19 @@
 }
 
 .accordion {
-   width: 1196px;
+   width: 74.75rem;
 }
 
 .item {
-    background: #FFFFFF;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    border: 1px solid #EBEBEB;
-    border-radius: 4px;
+    background: var(--myColor_2);
+    margin-bottom: 0.625rem;
+    padding: 0.625rem 1.25rem;
+    border: 1px solid var(--myColor_8);
+    border-radius: 0.25rem;
 }
 
 .title {
-    color: #000000;
+    color: var(--myColor_3);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +59,7 @@
 }
 
 .content {
-    color: #000000;
+    color: var(--myColor_3);
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
@@ -68,15 +67,15 @@
 
 .content.show {
     height: auto;
-    max-height: 9999px;
+    max-height: 624.9375rem;
     transition: all 0.5s cubic-bezier(1,0,1,0);
 }
 
 .answer{
     font-family: 'Rubik';
     font-style:'Regular';
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     line-height: 145%;
-    color: #4F4F4F;
+    color: var(--myColor_7);
 }
