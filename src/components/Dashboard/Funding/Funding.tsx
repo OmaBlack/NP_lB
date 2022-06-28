@@ -80,7 +80,6 @@ function Funding() {
                   <Link to="#" className={style.btntext}>Pay With Nerve</Link>
                 </button>
               </div>
-
             </div>
           </div>
         </div>

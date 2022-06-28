@@ -13,7 +13,7 @@ const Welcome = () => {
         </div>
         <button className={styles.action}>
           <span>Quick Action</span>
-          <img src={Images.warrowdown} alt="" />
+          <img src={Images.warrowdown} alt="a white arrow" />
         </button>
       </div>
 

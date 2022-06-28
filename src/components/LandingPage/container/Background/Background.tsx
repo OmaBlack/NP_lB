@@ -6,7 +6,7 @@ const Background = () => {
   return (
      
     <div className={BackgroundStyles.backgroundfirst}>
-        <img src={Images.image1} alt=''/>
+        <img src={Images.image1} alt='a sitting room'/>
     </div>
     
   )

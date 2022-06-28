@@ -8,7 +8,7 @@ const Header = () => {
       <nav className={HeaderStyles.header}>
            <div className={HeaderStyles.nerve_logo}>
                 <div className={HeaderStyles.logo_image}>
-                    <img src={Images.flogo} alt=''/>
+                    <img src={Images.flogo} alt='nerve logo'/>
                 </div>
             </div>
             <div className={HeaderStyles.nav_list}>

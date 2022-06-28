@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
 
 .facilitycontainer {
-    background: #FFFFFF;
+    background: var(--myColor_2);
     max-width: 90rem;
     height: 44.5625rem;
     display: flex;
@@ -67,20 +67,14 @@
 }
 
 .facility_btn button{
-    background-color: #ffffff;
+    background-color: var(--myColor_2);
     border-width: 0;
     font-family: 'Rubik';
     font-style: Medium;
     font-size: 0.875rem;
     line-height: 1.5rem;
-    color: #171F46;
+    color: var(--myColor_6);
     padding:0.625rem 2.5rem;
-    border:1px solid #D7DFE9;
-  
-}
-
-.facility_btn {
-    background:#fff;
     width: 9.875rem;
     height: 2.5rem;
     border-radius: 0.25rem;
@@ -91,5 +85,5 @@
 
 .ftylink_btn{
     text-decoration: none;
-    color: #000000;
+    color: var(--myColor_3);
 }

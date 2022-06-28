@@ -14,17 +14,17 @@ const Facility = ()=> {
           </div>
           <div className={FacilityStyles.facility_img}>
               <div className= {FacilityStyles.loan}>
-                  <img src={Images.Loan} alt=''/>
+                  <img src={Images.Loan} alt='instant loan icon'/>
                   <h3>Instant Loans</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                </div>
                <div className= {FacilityStyles.project}>
-                  <img src={Images.Project} alt=''/>
+                  <img src={Images.Project} alt='project financing icon'/>
                   <h3>Project Financing</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
              </div>
              <div className= {FacilityStyles.credit}>
-                <img src={Images.credit} alt=''/>
+                <img src={Images.credit} alt='credit report icon'/>
                 <h3>Credit Report</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
             </div>

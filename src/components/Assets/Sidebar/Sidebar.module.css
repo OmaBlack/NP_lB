@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
 
-*{
-    font-family: 'Rubik';
-}
-
 .sidebar{
-  background-color: #0051CA;
+  background-color: var(--myColor_10);
   width: 17%;
   height: 100vh;
   display: flex;
@@ -13,7 +9,6 @@
   flex-direction: column;
   position: fixed;
   margin-left: 0;
-  /* z-index: 1; */
     
 }
 
@@ -46,13 +41,13 @@ margin-right:15px;
 
  .sideTag ul li a{ 
     text-decoration: none;
-    color: white;
+    color: var(--myColor_2);
     font-size: 1.6rem; 
 }
 
 .sideTag ul li a:hover{
     text-decoration: none;
-    border-left: 6px solid #ffffff;
+    border-left: 6px solid var(--myColor_2);
 
 }
 
@@ -70,13 +65,13 @@ margin-right:15px;
 }
 
 .child {
-    color: #FFFFFF;
-    background: #0B69FF;
+    color: var(--myColor_2);
+    background: var(--myColor_5);
     
 }
 
 .child li {
-    color: #FFFFFF;
+    color: var(--myColor_2);
     font-family: 'Rubik';
     font-style: 'Regular';
     font-size: 14px;
@@ -89,7 +84,7 @@ margin-right:15px;
 .btn {
     position: absolute;
     left: 90%;
-    color: #FFFFFF;
+    color: var(--myColor_2);
 }
 
 .linkimg{
@@ -99,14 +94,3 @@ margin-right:15px;
 .linkchild{
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-

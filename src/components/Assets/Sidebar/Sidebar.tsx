@@ -15,22 +15,22 @@ function Sidebar() {
   return (
     <aside className={style.sidebar}>
         <div>
-        <img src={Images.sidebarlogo} alt=''  className={style.sidelogo}/>
+        <img src={Images.sidebarlogo} alt='nerve logo'  className={style.sidelogo}/>
         </div>
         <div className={style.sideTag}>
             <ul>
                 <li className={style.dashboard}>
                     <Link to = "/dashboard" className={style.linkimg}>
-                        <img src = {Images.sided}  alt="" className ={style.Sidebar_icon}/>
+                        <img src = {Images.sided}  alt="icon" className ={style.Sidebar_icon}/>
                         Dashboard
                     </Link>
                 </li>
 
                 <li className={style.fund}>
                     <Link to="#" className={style.linkimg}>
-                        <img src = {Images.Inbox}  alt="" className ={style.Sidebar_icon}/>
+                        <img src = {Images.Inbox}  alt="icon" className ={style.Sidebar_icon}/>
                         <span>Funding</span>
-                        <span className={style.btn} onClick={display}>{show ? <img src={Images.warrowup} alt="warrowup" />  : <img src={Images.warrowdown} alt="warrowdown" /> }</span>
+                        <span className={style.btn} onClick={display}>{show ? <img src={Images.warrowup} alt="a white arrow" />  : <img src={Images.warrowdown} alt="a white arrow" /> }</span>
                     </Link>
                 </li>
                 { show && 

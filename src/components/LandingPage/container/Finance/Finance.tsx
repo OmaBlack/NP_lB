@@ -8,8 +8,8 @@ const Finance = ()=> {
       <section className={FinanceStyles.financecontainer}>
           <div className={FinanceStyles.financebox}>
             <div className={FinanceStyles.financeimg}>
-                <img src={Images.image2} alt=''/>
-                <img src={Images.Vector} alt='' className={FinanceStyles.bg_img}/>
+                <img src={Images.image2} alt='a nurse'/>
+                <img src={Images.Vector} alt='nerve' className={FinanceStyles.bg_img}/>
             </div>
             <div className={FinanceStyles.finance_text}>
                 <h2>Tailored loans and financial support</h2>

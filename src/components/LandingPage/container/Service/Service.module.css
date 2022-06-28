@@ -32,13 +32,13 @@ line-height: 2rem;
 .service_btn{
 
     display: inline;
-   background: #0B69FF;
+   background: var(--myColor_5);
 
 }
 .service_btn button{
     padding:0.8125rem 0.9375rem;
-    color:#fff;
-    background: #0B69FF;
+    color:var(--myColor_2);
+    background: var(--myColor_5);
     border:none;
     border-radius: 0.25rem;
     font-size: 0.875rem;
@@ -46,7 +46,7 @@ line-height: 2rem;
 
 .servbtn{
     text-decoration: none;
-    color: #fff;
+    color: var(--myColor_2);
 }
 .service_img{
     width: 21.875rem;

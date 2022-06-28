@@ -15,11 +15,11 @@ function Payment() {
                     <button><Link to="#" className={PaymentStyles.link_paybtn}>Get a loan today!</Link></button>
                 </div>
 
-                <img src={Images.Vector} alt=''className ={PaymentStyles.design}/>
+                <img src={Images.Vector} alt='nerve image'className ={PaymentStyles.design}/>
 
             </div>
             <div className={PaymentStyles.paycube}>
-             <img src={Images.cube} alt=''/>   
+             <img src={Images.cube} alt='cubes'/>   
             </div>
         </div>
     </div>

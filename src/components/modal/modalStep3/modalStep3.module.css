@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #E5E5E5;
+    background: var(--myColor_1);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@
 }
 .container {
     border-radius: 0.4375rem;
-    background: #FFFFFF;
+    background: var(--myColor_2);
     height: 22.6875rem;
     max-width: 43.1875rem;
     display: flex;
@@ -33,7 +33,7 @@
     width: 43.1875rem;
     height: 22.6875rem;
     text-align: center;
-    background: #FFFFFF;
+    background: var(--myColor_2);
 }
 
 .content p {
@@ -43,7 +43,7 @@
     font-size: 0.875rem;
     line-height: 1.5rem;
     line-height: 145%;
-    color: #000000;
+    color: var(--myColor_3);
     font-weight: 200;
     margin-bottom: 1em;
     margin-top: 0.1em;
@@ -55,15 +55,15 @@
     font-size: 1.5rem;
     line-height: 2rem;
     line-height: 113%;
-    color: #171F46;
+    color: var(--myColor_6);
 }
 
 .step2_btn {
     max-width: 5.875rem;
     height: 2.5rem;
     border-radius: 0.25rem;
-    background-color: #0B69FF;
-    color: #0B69FF;
+    background-color: var(--myColor_5);
+    color: var(--myColor_5);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,8 +81,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background:#0B69FF;
-    color: #FFFFFF;
+    background: var(--myColor_5);
+    color: var(--myColor_2);
     font-weight: bold;
     border-width: 0;
 }

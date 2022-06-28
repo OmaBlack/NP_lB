@@ -41,7 +41,7 @@
     font-size: 0.875rem;
     line-height: 1.5rem;
     line-height: 145%;
-    color: #000000;
+    color: var(--myColor_3);
     height: 1.5rem;
     font-weight: bold;
     justify-content: space-evenly;
@@ -72,23 +72,23 @@
     width: 9.0625rem;
     height: 2.5rem;
     border-radius: 0.25rem;
-    background-color: #0B69FF;
-    color: #FFFFFF;
+    background-color: var(--myColor_5);
+    color: var(--myColor_2);
     border-width: 0;
 }
 
 .nav_list ul li a{
     text-decoration: none;
-    color: #000000;
+    color: var(--myColor_3);
 }
 
 .span {
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-style: Medium;
     font-size: 0.875rem;
     line-height: 1.5rem;
     line-height: 145%;
-    color: #FFFFFF;
+    color: var(--myColor_2);
     font-weight: bold;
 }
 
