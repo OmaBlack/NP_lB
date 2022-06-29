@@ -13,7 +13,7 @@ function ModalAlert() {
                 <div className='Icon'>
                     <img src={Image} alt="Icon" />
                 </div>
-                <h1>Account Created Successfully!</h1>
+                <h1 className='Alert-h1'>Account Created Successfully!</h1>
                 <p>
                     Limited Information found. You will be required to give more
                     information about your hospital, facility or organisation
