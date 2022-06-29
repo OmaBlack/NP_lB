@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
+
+
+.header {
+    display: flex;
+    width: 100%;
+    max-width: 90rem;
+    height:4.375rem;
+    justify-content: center;
+}
+
+.nerve_logo{
+    width: 40%;
+}
+
+.logo_image {
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+    margin-top: 1.2em;
+}
+
+.nav_list{
+    width: 60%;
+}
+
+
+.nav_ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_list li {
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    line-height: 145%;
+    color: var(--myColor_3);
+    height: 1.5rem;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+.nav_list li:nth-of-type(1) {
+    width: 87px;
+    width: 15%;
+}
+
+.nav_list li:nth-of-type(2) {
+    width: 60px;
+    width: 15%;
+    
+}
+
+.nav_list li:nth-of-type(3) {
+    width: 62px;
+    width: 15%;
+}
+
+.nav_list li:nth-of-type(4) {
+    width: 76px;
+    width: 15%;
+}
+
+.nav_ul button {
+    width: 9.0625rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--myColor_5);
+    color: var(--myColor_2);
+    border-width: 0;
+}
+
+.nav_list ul li a{
+    text-decoration: none;
+    color: var(--myColor_3);
+}
+
+.span {
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    line-height: 145%;
+    color: var(--myColor_2);
+    font-weight: bold;
+}
+
+
