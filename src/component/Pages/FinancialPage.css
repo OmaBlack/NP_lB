@@ -1,0 +1,208 @@
+.container{
+    margin-top: 80px;
+    justify-self:left;
+    position: absolute;
+    width: 630px;
+    margin-left: 150px;
+    box-sizing: border-box;
+    margin-right: 50px;
+
+
+}
+
+.small-text{
+    display: flex;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 11px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    line-height: 20px;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+
+.com-Reg{
+    display: flex;
+}
+
+.companyReg{
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height:16px ;
+
+}
+
+.cac{
+    width: 60%;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height:16px ;
+}
+
+.cace-upload{
+    display:flex;
+
+}
+
+#registr{
+
+    width: 230px;
+    height: 25px;
+    line-height:16px ;
+    background: var(--white-colour);
+    border-radius:4px;
+    border: 1px solid var(--cream);
+    text-align: center;
+
+   
+
+}
+
+.cert{
+    width: 60%;
+
+}
+
+.Reg{
+    width: 40%;
+}
+
+#certi{
+    border: 1px dashed var(--black);
+    width: 370px;
+    height: 65px;
+    line-height:16px ;
+    background: var(--white-colour);
+    border-radius:4px ;
+    text-align: center;
+}
+
+
+.ba-verify{
+    display: flex;
+    width: 100%;
+}
+
+.bank-number{
+    width: 50%;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height:16px ;
+    margin-top: 30px
+
+}
+
+.statement{
+
+    width: 50%;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height:16px ;
+    margin-top: 30px;
+
+}
+
+.div-cover{
+    display: flex;
+    
+
+}
+
+.verification{
+    width: 40%;
+}
+
+.upload{
+    width: 60%;
+    height:65px;
+}
+
+
+#ba-nk{
+   height: 65px; 
+   border: 1px dashed var(--cream);
+   width: 370px;
+}
+
+#bank-veri{
+
+    width: 230px;
+    height: 25px;
+    line-height:16px ;
+    background: var(--white-colour);
+    border-radius:4px;
+    border: 1px solid var(--cream);
+    text-align: center;
+
+}
+
+
+#check{
+    margin-top: px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    text-align: center;
+    align-self: center;
+
+  
+}
+
+
+.check2{  
+    display: flex;
+    align-content: center;
+    
+}
+
+.check1{
+
+     font-size: 12px;
+     line-height: 24px;
+     margin-top: 40px;
+     display: flex;
+
+}
+
+.ba-fro{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.back{
+    width: 100px;
+    border-radius: 4px;
+    height: 25px;
+    background: var(--white-colour) ;
+    border-style: none;
+    color:black;
+    font-weight: 500px;
+    border: 2px solid var(--cream);
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.front{
+
+    width: 100px;
+    border-radius: 4px;
+    height: 25px;
+    background: var(--deep-blue) ;
+    border-style: none;
+    color: var(--white-colour);
+    font-weight: 500px;
+    margin-left: 10px;
+
+}
+
+
+
+
+

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
+
+.Modal-Exist-wrapper {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--hue-white);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Modal-Exist-container {
+    border-radius: 10.4375rem;
+    background: var(--white-colour);
+    height: 22.6875rem;
+    max-width: 43.1875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Exist-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    align-items: center;
+    justify-content: center;
+    width: 43.1875rem;
+    height: 22.6875rem;
+    text-align: center;
+    background: var(--white-colour);
+    border-radius: 1.4375rem;
+}
+
+.Exist-content p {
+    width: 58%;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-style: 'Regular';
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    line-height: 145%;
+    color: var(--black-colour2);
+    font-weight: 200;
+    margin-bottom: 1em;
+    margin-top: 0.1em;
+}
+.Exist-h1 {
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    line-height: 113%;
+    color: var(--red-colour2);
+}
+.step2_btn {
+    max-width: 5.875rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    background-color: var(--blue);
+    color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.step2_btn button {
+    max-width: 3.875rem;
+    max-height: 1.5rem;
+    font-family: 'Rubik';
+    font-style: Medium;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    line-height: 145%;
+    background: var(--blue);
+    color: #FFFFFF;
+    font-weight: bold;
+    border-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

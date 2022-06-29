@@ -1,0 +1,94 @@
+.Holder{
+    margin-top: 50px;
+    justify-self: center;
+    position: absolute;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.test-Holder4{
+    display: flex;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+
+.smallText{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    width: 234px;
+    height: 24px;
+    left: 526px;
+    top: 414px;  
+
+}
+
+.attachment{
+width: 89px;
+height: 24px;
+left: 0px;
+margin-top: 10px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+text-transform: uppercase;
+color: #7E858E;
+
+
+}
+
+#big-form{
+    height: 169px;
+    width: 700px;
+    margin-top: 9px;
+    border: 1px dashed var(--cream);
+    border-radius: 2px;
+}
+
+
+.div-butt{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.button1{
+    width: 100px;
+    border-radius: 4px;
+    background:var(--white-colour) ;
+    border-style: none;
+    color:black;
+    font-weight: 500px;
+    border: 2px solid var(--cream);
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    margin-right: 10px;
+
+
+}
+
+.button2{
+    width: 100px;
+    border-radius: 4px;
+    background: var(--deep-blue) ;
+    border-style: none;
+    color: var(--white-colour);
+    font-weight: 500px;
+    margin-left: 10px;
+    width: 140px;
+    height: 40px;
+
+}
+

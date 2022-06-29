@@ -1,0 +1,73 @@
+.centeredDiv {
+    margin-top: 100px;
+    justify-self: center;
+    position: absolute;
+    width: 500px;
+    margin-left: 250px;
+
+
+}
+
+
+.text {
+    display: flex;
+    align-items: center;
+    font-weight: 400px;
+    line-height: 24px;
+
+}
+
+.test-holder{
+    display: flex;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 11px;
+    margin-bottom: 25px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.email-textHolder {
+    font-weight: 500px;
+    font-size: 10px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+
+}
+
+#proceed{
+    width: 430px;
+    box-sizing: border-box;
+    border: 1px solid var(--cream);
+    border-radius: 4px;
+    height: 30px;
+    background: var(--white-color);
+}
+
+.divbutton {
+    display: flex;
+    align-items: center;
+    width:100px ;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+button {
+    width: 100px;
+    border-radius: 4px;
+    height: 25px;
+    background: var(--deep-blue);
+    border-style: none;
+    color: var(--white-colour);
+    font-weight: 500px;
+}
+
+
+.formik_error{
+    color: var(--red-color);
+    font-size: 10px;
+    line-height: 16px;
+}
