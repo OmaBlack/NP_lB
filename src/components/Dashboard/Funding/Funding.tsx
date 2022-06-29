@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "./Funding.module.css";
-import Header from "../../Assets/Header/Header";
+import Header from "../../Common/Header/Header";
 
 function Funding() {
   return (
