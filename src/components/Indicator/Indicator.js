@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './Indicator.css'
-import dot from "../../Images/bluedot.jpeg";
+import dot from "../../Assets/Images/bluedot.jpeg";
 
 const Indicator =() => {
   

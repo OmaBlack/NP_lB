@@ -74,9 +74,9 @@ import './InformationPage.css';
                     </div>
                     <div className="address">address</div>
                     <div className="Address-field">
-                            {formik.touched.address && formik.errors.address ? (
-                              <p className="formik_error">{formik.errors.address}</p>
-                            ) : null}
+                        {formik.touched.address && formik.errors.address ? (
+                            <p className="formik_error">{formik.errors.address}</p>
+                        ) : null}
 
                         <input
                             type="text"

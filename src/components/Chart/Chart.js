@@ -1,5 +1,5 @@
 import React from 'react';
-import pieChartImage from '../../Images/pie_img.png';
+import pieChartImage from '../../Assets/Images/pie_img.png';
 import './Chart.css';
 
 

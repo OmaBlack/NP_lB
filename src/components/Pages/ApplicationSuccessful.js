@@ -1,6 +1,6 @@
 import React from "react";
 import './ApplicationSuccessful.css';
-import circle from '../../Images/circle.png';
+import circle from '../../Assets/Images/circle.png';
 
 
 

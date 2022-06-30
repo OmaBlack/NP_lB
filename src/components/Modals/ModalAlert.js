@@ -1,6 +1,6 @@
 import React from "react";
 import  './ModalAlert.css';
-import Image from '../../Images/greenIcon.png';
+import Image from '../../Assets/Images/greenIcon.png';
 
 
 
