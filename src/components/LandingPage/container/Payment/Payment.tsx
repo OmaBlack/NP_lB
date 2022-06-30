@@ -1,7 +1,7 @@
 import React from 'react'
 import PaymentStyles from './Payment.module.css';
 import { Link } from "react-router-dom";
-import { Images } from '../../../ComponentImages';
+import { Images } from '../../../../Assets/ComponentImages';
 
 function Payment() {
   return (

@@ -1,12 +1,12 @@
 .row-div{
-    background-color: var(--deep-blue) ;
+    background-color: var(--myColor_10) ;
     width: 320px;
     display: flex;
     flex-direction: column;
 }
 
 .column-div{
-    background-color: var(--white-colour);
+    background-color: var(--myColor_2);
     width: 900px;
 }
 
@@ -14,7 +14,7 @@
     display: flex;
     height: 700px ;
     width: 1200px;
-    background-color: blueviolet;
+    background-color: var(--myColor_2);
     margin: 30px auto;
 
 }

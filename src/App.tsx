@@ -6,7 +6,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Funding from "./components/Dashboard/Funding/Funding";
 import Welcome from "./components/Dashboard/Welcome/Welcome";
-import Sidebar from "./components/Common/Sidebar/Sidebar";
+import DashboardSidebar from "./components/Common/DashboardSidebar/DashboardSidebar";
 import TemplateHolder from "./components/TemplateHolder/StartApplTemp";
 import TemplateHolder2 from "./components/TemplateHolder/InformationPageTemp";
 import TemplateHolder3 from "./components/TemplateHolder/FinancialPageTemp";
@@ -21,16 +21,16 @@ function App() {
   return (
     <div>
       <Router>
-        {location.includes("/funding") && <Sidebar />}
-        {location.includes("/welcome") && <Sidebar />}
+        {location.includes("/funding") && <DashboardSidebar />}
+        {location.includes("/welcome") && <DashboardSidebar />}
         <Routes>
           <Route path="/funding" element={<Funding />} />
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/page" element={<LandingPage />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/modal-2" element={<ModalStep2 />} />
           <Route path="/modal-3" element={<ModalStep3 />} />
-          <Route path="/" element={<TemplateHolder />} />
+          <Route path="/started" element={<TemplateHolder />} />
           <Route path="/getInstanceLoan" element={<TemplateHolder2 />} />
           <Route path="/additionalInformation" element={<TemplateHolder3 />} />
           <Route path="/calculateCredit" element={<TemplateHolder4 />} />

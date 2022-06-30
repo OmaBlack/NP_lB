@@ -14,7 +14,7 @@
   font-weight: 400px;
   line-height: 24px;
   font-weight: 500;
-  font-family: Rubik;
+  font-family: 'Rubik';
 }
 
 .test-holder {
@@ -24,7 +24,7 @@
   font-size: 11px;
   margin-bottom: 25px;
   line-height: 20px;
-  color: #000000;
+  color: var(--myColor_3);
 }
 
 .email-textHolder {
@@ -38,10 +38,10 @@
 #proceed {
   width: 430px;
   box-sizing: border-box;
-  border: 1px solid var(--cream);
+  border: 1px solid var(--myColor_9);
   border-radius: 4px;
   height: 30px;
-  background: var(--white-color);
+  background: var(--myColor_2);
 }
 
 .divbutton {
@@ -56,14 +56,14 @@ button {
   width: 100px;
   border-radius: 4px;
   height: 25px;
-  background: var(--deep-blue);
+  background: var(--myColor_10);
   border-style: none;
-  color: var(--white-colour);
+  color: var(--myColor_2);
   font-weight: 500px;
 }
 
 .formik_error {
-  color: var(--red-color);
+  color: var(--myColor_14);
   font-size: 10px;
   line-height: 16px;
 }

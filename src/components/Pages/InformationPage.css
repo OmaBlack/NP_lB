@@ -14,7 +14,7 @@
   margin-bottom: 25px;
   margin-top: 15px;
   line-height: 20px;
-  color: #000000;
+  color: var(--myColor_3);
 }
 
 .doubleDiv {
@@ -43,27 +43,29 @@
 }
 
 .doubleIn {
-    width: 0px;
+    
   
 }
 
 .doubleInp {
-  width: 0px;
+
+
+
 }
 
 #fac {
   width: 280px;
   height: 35px;
-  border: 1px solid #d7dfe9;
-  color: #ffffff;
+  border: 1px solid var(--myColor_9);
+  color: var(--myColor_2);
   border-radius: 4px;
 }
 
 #fac-type {
   width: 280px;
   height: 35px;
-  border: 1px solid #d7dfe9;
-  background: #ffffff;
+  border: 1px solid var(--myColor_9);
+  background: var(--myColor_2);
 
   border-radius: 4px;
 }
@@ -78,8 +80,8 @@
 
 #add {
   width: 650px;
-  border: 1px solid #d7dfe9;
-  background: #ffffff;
+  border: 1px solid var(--myColor_9);
+  background: var(--myColor_2);
   height: 60px;
   box-sizing: border-box;
 }
@@ -121,41 +123,45 @@
 
 .region-inp {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  /* border: 2px solid red; */
 }
 
 .city-inp {
-  width: 0px;
+ 
 }
 
 .country-inp {
-  width: 0px ;
+  
 }
 
 .state-inp {
-  width: 0px;
+ 
 }
 
 #for-country {
-  border: 1px solid #d7dfe9;
-  background: #ffffff;
+  border: 1px solid var(--myColor_9);
+  background: var(--myColor_2);
   border-radius: 4px;
   height: 25px;
+  /* border: 2px solid blue ; */
+  
 }
 
 #for-state {
-  border: 1px solid #d7dfe9;
-  background: #ffffff;
+  border: 1px solid var(--myColor_9);
+  background: var(--myColor_2);
   border-radius: 4px;
   height: 25px;
+   /* border: 2px solid blue; */
 }
 
 #for-city {
-  border: 1px solid #d7dfe9;
-  background: #ffffff;
+  border: 1px solid var(--myColor_9);
+  background: var(--myColor_2);
   border-radius: 4px;
   height: 25px;
+   /* border: 2px solid blue; */
 }
 
 .Nex-Prev {
@@ -168,12 +174,12 @@
   width: 100px;
   border-radius: 4px;
   height: 25px;
-  background: white;
+  background: var(--myColor_2);
   border-style: none;
-  border: 1px solid #d7dfe9;
-  background: #ffffff;
+  border: 1px solid var(--myColor_9);
+  background: var(--myColor_2);
   border-radius: 4px;
-  color: black;
+  color: var(--myColor_3);
   font-weight: 500px;
 }
 
@@ -182,8 +188,8 @@
   width: 100px;
   border-radius: 4px;
   height: 25px;
-  background: #0b69ff;
+  background: var(--myColor_5);
   border-style: none;
-  color: white;
+  color: var(--myColor_2);
   font-weight: 500px;
 }

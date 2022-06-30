@@ -159,11 +159,13 @@ select{
 .fundbtn button{
     background-color: #0B69FF;
     border: none;
-    
-}
+    width: 100%;
+} 
+
 .btntext{
     color: #ffffff;
     text-decoration: none;
+
 }
 
 

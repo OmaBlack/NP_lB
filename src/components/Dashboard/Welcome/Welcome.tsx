@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Welcome.module.css";
-import { Images } from "../../ComponentImages";
+import { Images } from "../../../Assets/ComponentImages";
 import { Link } from "react-router-dom";
 
 const Welcome = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 import FinanceStyles from './Finance.module.css';
 import { Link } from "react-router-dom";
-import { Images } from '../../../ComponentImages';
+import { Images } from '../../../../Assets/ComponentImages';
 
 const Finance = ()=> {
   return (

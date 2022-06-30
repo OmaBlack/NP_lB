@@ -16,13 +16,17 @@ list-style: none;
     --myColor_10: #0051CA;
     --myColor_11: #6B38FB;
     --myColor_12: #F4F4F4;
+    --myColor_13: #B0CDFA;
+    --myColor_14: #FF0000;
+    --myColor_15: #7E858E;
+    --myColor_16: #2DCA73;
 
 
     --white-colour: #ffffff;
     --ligth-blue: #b0cdfa;
     --deep-blue: #0051ca;
     --cream: #d7dfe9;
-    --black: #171f46;
+    --darkblue: #171f46;
     --black-color2: #000000;
-    --hue-white: #F4F4F4;
+    /* --ash: #F4F4F4; */
 }
