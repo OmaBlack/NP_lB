@@ -2,16 +2,16 @@ import React from "react";
 import "./Indicator.css";
 import dot from "../../Assets/Images/bluedot.jpeg";
 
-const Indicator = () => {
+const Indicator2 = () => {
 
   return (
     <div className="indicator">
-      <div className="indc active">
+      <div className="indc">
         <div className="num1">1</div>
         <div className="start">START</div>
         <img src={dot} alt="icon missing" />
       </div>
-      <div className="indc">
+      <div className="indc active">
         <div className="num1">2</div>
         <div className="start">INFORMATION</div>
         <img src={dot} alt="icon missing" />
@@ -30,4 +30,4 @@ const Indicator = () => {
   );
 };
 
-export default Indicator;
+export default Indicator2;

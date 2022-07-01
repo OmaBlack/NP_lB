@@ -100,22 +100,22 @@ const SecondPageCentered = () => {
             <div className="city">city</div>
           </div>
 
-            <div className="region-inp">
-                <div className="country-inp">
-                    <input type="text" id="for-country" name="country" />
-                </div>
-
-                <div className="state-inp">
-                    <input type="text" id="for-state" name="state" />
-                </div>
-
-                <div className="city-inp">
-                    <input type="text" id="for-city" name="city" />
-                </div>
+          <div className="region-inp">
+            <div className="country-inp">
+              <input type="text" id="for-country" name="country" />
             </div>
+
+            <div className="state-inp">
+              <input type="text" id="for-state" name="state" />
+            </div>
+
+            <div className="city-inp">
+              <input type="text" id="for-city" name="city" />
+            </div>
+          </div>
           <div className="Nex-Prev">
-            <Link to="/">
-              <button className="prev">previous</button>
+            <Link to="/started">
+              <button className="prev">Previous</button>
             </Link>
 
             <button

@@ -1,11 +1,13 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import Indicator4 from "../Indicator/indicator4";
 import './CalculateCreditPage.css';
 
 
 const FourthPageDiv = ()=> {
     return(
         <div>
+            <Indicator4 />
             <div className="Holder">
                 <h2>Calculate your credit limit</h2>
 
@@ -21,7 +23,7 @@ const FourthPageDiv = ()=> {
                 </div>
                 <div className="div-butt">
                     <Link to='/additionalInformation'>
-                    <button className="button1" placeholder="proceed">Proceed</button>
+                    <button className="button1" placeholder="proceed">Previous</button>
                     </Link>
 
                     <Link to='/successful'>

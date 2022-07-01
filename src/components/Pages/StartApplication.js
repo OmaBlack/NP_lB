@@ -4,6 +4,7 @@ import "./StartApplication.css";
 //import {useRef, useState} from 'react';
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import Indicator from "../Indicator/Indicator";
 
 const StartCenteredDiv = () => {
   const navigate = useNavigate();
@@ -25,6 +26,7 @@ const StartCenteredDiv = () => {
   });
   return (
     <div>
+      <Indicator/>
       <div className="centeredDiv">
         <h2 className="text">Get started with your application</h2>
         <div className="test-holder">

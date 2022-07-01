@@ -1,6 +1,5 @@
 import React from "react";
 import "./FinancialPageTemp.css";
-import Indicator from "../Indicator/Indicator.js";
 import SideBarText from "../SideBar/SideBarText.js";
 import Nerve from "../Nerve/Nerve.js";
 import Chart from "../Chart/Chart.js";
@@ -17,7 +16,6 @@ const TemplateHolder3 = () => {
             <Chart />
           </div>
           <div className="column-div">
-            <Indicator />
             <ThirdPageDiv />
           </div>
         </div>

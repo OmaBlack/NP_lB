@@ -1,6 +1,6 @@
 import React from 'react';
 import './InformationPageTemp.css';
-import Indicator from  '../Indicator/Indicator.js';
+import Indicator2 from  '../Indicator/indicator2.js';
 import SideBarText from '../SideBar/SideBarText.js';
 import Nerve from '../Nerve/Nerve.js';
 import Chart from '../Chart/Chart.js';
@@ -19,7 +19,7 @@ const TemplateHolder2 =()=>{
                         <Chart/>
                     </div>
                     <div className='column-div'>
-                        <Indicator/>
+                        <Indicator2/>
                         <SecondPageCentered/>
                     </div>
                 </div>

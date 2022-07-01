@@ -1,6 +1,5 @@
 import React from 'react';
 import './CalculateCreditTemp.css';
-import Indicator from  '../Indicator/Indicator.js';
 import SideBarText from '../SideBar/SideBarText.js';
 import Nerve from '../Nerve/Nerve.js';
 import Chart from '../Chart/Chart.js';
@@ -19,7 +18,6 @@ const TemplateHolder4 =()=>{
                         <Chart/>
                     </div>
                     <div className='column-div'>
-                        <Indicator/>
                         <FourthPageDiv/>
                     </div>
                 </div>
