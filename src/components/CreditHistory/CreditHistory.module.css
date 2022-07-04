@@ -9,11 +9,16 @@
     border: 1px solid red;
     justify-content: space-between;
     padding: 0 2rem 0 3.5rem;
+    background-color: var(--myColor_17)
 }
 .title h1{
     height: 2.5rem;
+    font-family: 'Rubik';
+    font-style: 'Regular';
+    font-size: 32px;
+    line-height: 40px;
+    line-height: 105%;
     /* width: 12.875rem; */
-    border: 1px solid red;
 }
 
 .hisbtn{
@@ -22,9 +27,13 @@
     display: flex;
     align-items: center;
     justify-content:center;
-    border: 1px solid red;
+    background:var(--myColor_5);
+    border-radius: 0.25rem;
+
 }
 .hisbtn button{
     text-align: center;
-    margin: 0 auto;
+    background:var(--myColor_5);
+    color:var(--myColor_2);
+    border: none;
 }
