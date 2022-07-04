@@ -1,7 +1,7 @@
 import React from "react";
 import style from './Creditform.module.css';
-import RequestHeader from '../requestheader/RequestHeader';
-import CreditFormDetails from "../creditformdetails/CreditFormDetails";
+import RequestHeader from '../../componets/requestheader/RequestHeader';
+import CreditFormDetails from "../../componets/creditformdetails/CreditFormDetails";
 
 const Creditform=()=>{
 

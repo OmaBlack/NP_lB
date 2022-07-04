@@ -1,9 +1,9 @@
 import React from "react";
-import style from './Login.module.css';
-import loginImg from "../../images/Rectangle13.svg"
-import LogSignComp from "../loginSignup/LogSignComp";
+import style from './signup.module.css';
+import loginImg from "../../images/Rectangle12.svg"
+import LogSignComp from "../../componets/loginSignup/LogSignComp";
 
-const Login=()=>{
+const Signup=()=>{
 
     return(
 
@@ -13,7 +13,7 @@ const Login=()=>{
             </div>
             <div className={style.login_main}>
                 
-                <LogSignComp info = "Login to your account"/>
+                <LogSignComp info = "Create an Account"/>
                 
                 
                 <p className={style.loginDescription}>Kindly provide the follwing details  to continue</p>
@@ -21,20 +21,24 @@ const Login=()=>{
                     <form action="">
                         <div className={style.formGroup}>
                             <label html for="email">EMAIL ADDRESS</label>
-                            <input type="email" name="" id="" placeholder="admin@faithcityhealth.com"/>
+                            <input className={style.gray}type="email" name="" id="" placeholder="admin@faithcityhealth.com"/>
                         </div>
                         <div className={style.formGroup}>
                             <label html for="password">PASSWORD</label>
-                            <input type="password" name="" id="" placeholder="••••••••"/>
+                            <input className={style.password} type="password" name="" id="" placeholder="••••••••"/>
                             
                         </div>
                         <div className={style.formGroup}>
-                            <button>Login</button>
+                            <label html for="password">RE-TYPE PASSWORD</label>
+                            <input className={style.password} type="password" name="" id="" placeholder="••••••••"/>
+                        </div>
+                        <div className={style.formGroup}>
+                            <button>Create Account</button>
                         </div>
 
                     </form>
                     <div className={style.loginBottom}>
-                    <p className={style.signupLink}>Don't have an account ? <span>Register</span></p>
+                    <p className={style.signupLink}>Already have an account? <span>Login</span></p>
                     <p className={style.trademark}>© 2021 Nerve Inc. All Rights Reserved.®</p>
                     </div>
                 </div>
@@ -42,4 +46,4 @@ const Login=()=>{
         </div>
     )
 }
-export default Login;
+export default Signup;
