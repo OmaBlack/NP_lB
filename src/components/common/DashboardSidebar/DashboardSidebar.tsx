@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import style from './Sidebar.module.css';
+import style from './DashboardSidebar.module.css';
 import { Link } from "react-router-dom"
-import Iconr from "../../images/Iconr.svg";
-import Inbox from "../../images/Inbox.svg";
-import sidebarlogo from "../../images/sidebarlogo.svg";
-import warrowup from "../../images/warrowup.svg";
-import warrowdown from "../../images/warrowdown.svg";
-import sided from "../../images/sided.svg";
+import Iconr from "../../../images/Iconr.svg";
+import Inbox from "../../../images/Inbox.svg";
+import sidebarlogo from "../../../images/sidebarlogo.svg";
+import warrowup from "../../../images/warrowup.svg";
+import warrowdown from "../../../images/warrowdown.svg";
+import sided from "../../../images/sided.svg";
 
 
 
@@ -27,14 +27,14 @@ function Sidebar() {
             <ul>
                 <li className={style.dashboard}>
                     <Link to = "/dashboard" className={style.linkimg}>
-                        <img src = {sided}  alt="icon" className ={style.Sidebar_icon}/>
+                        <img src={sided}  alt="icon" className ={style.Sidebar_icon}/>
                         Dashboard
                     </Link>
                 </li>
 
                 <li className={style.fund}>
                     <Link to="#" className={style.linkimg}>
-                        <img src = {Inbox}  alt="icon" className ={style.Sidebar_icon}/>
+                        <img src={Inbox}  alt="icon" className ={style.Sidebar_icon}/>
                         <span>Funding</span>
                         <span className={style.btn} onClick={display}>{show ? <img src={warrowup} alt="a white arrow" />  : <img src={warrowdown} alt="a white arrow" /> }</span>
                     </Link>
@@ -51,7 +51,7 @@ function Sidebar() {
 
                 <li className={style.dashboard}>
                     <Link to = "/reports" className={style.linkimg}>
-                        <img src = {Iconr}  alt="" className ={style.Sidebar_icon}/>
+                        <img src={Iconr}  alt="" className ={style.Sidebar_icon}/>
                         Reports
                     </Link>
                 </li>

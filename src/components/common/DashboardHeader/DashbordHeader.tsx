@@ -1,5 +1,5 @@
 import React from "react";
-import headerstyle from "./Header.module.css";
+import headerstyle from "./DashboardHeader.module.css";
 import { IoIosArrowForward } from "react-icons/io";
 
 function Header() {

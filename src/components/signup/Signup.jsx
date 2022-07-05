@@ -3,7 +3,7 @@ import style from './signup.module.css';
 import loginImg from "../../images/Rectangle12.svg"
 import LogSignComp from "../../componets/loginSignup/LogSignComp";
 
-const Signup=()=>{
+const Signup = () => {
 
     return(
 
