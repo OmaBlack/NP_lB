@@ -10,14 +10,13 @@ import sided from "../../../images/sided.svg";
 
 
 
-function Sidebar() {
+const Sidebar = () => {
     const [show, setShow] = useState(false);
 
     const display = () => {
         setShow(!show);
     }
 
-    
   return (
     <aside className={style.sidebar}>
         <div>
@@ -63,6 +62,6 @@ function Sidebar() {
   )
 }
 
-export default Sidebar
+export default Sidebar;
 
 
