@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rubik:wght@300;400&display=swap');
+
 .container{
-    width:83%
+    width:83%;
+    height:100%;
 }
 
 .title{
@@ -36,4 +39,42 @@
     background:var(--myColor_5);
     color:var(--myColor_2);
     border: none;
+}
+
+.contentlist{
+    height: 95%;
+    background: var(--myColor_2);
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    border: 1px solid red;
+}
+
+.headrow{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.firstrow{
+    display: flex;
+    
+}
+
+.secondrow{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.thirdrow{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.fourthrow{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.fifthrow{
+    display: flex;
+    /* justify-content: space-evenly; */
 }
