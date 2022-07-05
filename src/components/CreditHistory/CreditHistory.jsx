@@ -13,57 +13,57 @@ const CreditHistory = () => {
       </div>
       <div className={HistoryStyle.contentlist}>
         <div className={HistoryStyle.headrow}>
-          <p>REQUEST</p>
-          <p>PURPOSE</p>
-          <p>AMOUNT REQUESTED<img src={blockdown} alt="icon" /></p>
-          <p>DUE DATE <img src={blockdown} alt="icon" /></p>
-          <p>PRIORITY <img src={blockdown} alt="icon" /></p>
-          <p>STATUS <img src={blockdown} alt="icon" /></p>
+          <p className={HistoryStyle.request}><span>REQUEST</span></p>
+          <p className={HistoryStyle.purpose}><span>PURPOSE</span></p>
+          <p className={HistoryStyle.amount}><span>AMOUNT REQUESTED</span></p><img src={blockdown} className={HistoryStyle.amtbtn} alt="icon" />
+          <p className={HistoryStyle.date}><span>DUE DATE</span> </p><img src={blockdown} className={HistoryStyle.datebtn} alt="icon" />
+          <p className={HistoryStyle.priority}><span>PRIORITY </span></p><img src={blockdown} className={HistoryStyle.prioritybtn} alt="icon" />
+          <p className={HistoryStyle.status}><span>STATUS</span></p><img src={blockdown} alt="icon" />
         </div>
 
         <div className={HistoryStyle.firstrow}>
-          <p>#75687980987</p>
-          <p>Consumables</p>
-          <p>37,000</p>
-          <p>9/04/2021</p>
-          <p>Low</p>
-          <p>Approved</p>
+          <p className={HistoryStyle.firstrow1}>#75687980987</p>
+          <p className={HistoryStyle.firstrow2}>Consumables</p>
+          <p className={HistoryStyle.firstrow3}>37,000</p>
+          <p className={HistoryStyle.firstrow4}>9/04/2021</p>
+          <p className={HistoryStyle.firstrow5}>Low</p>
+          <p className={HistoryStyle.firstrow6}>Approved</p>
         </div>
 
         <div className={HistoryStyle.secondrow}>
-        <p>#78798097865</p>
-        <p>Staffing</p>
-        <p>19,334,000</p>
-        <p>8/01/2021</p>
-        <p>Low</p>
-        <p>Rejected</p>
+        <p className={HistoryStyle.secondrow1}>#78798097865</p>
+        <p className={HistoryStyle.secondrow2}>Staffing</p>
+        <p className={HistoryStyle.secondrow3}>19,334,000</p>
+        <p className={HistoryStyle.secondrow4}>8/01/2021</p>
+        <p className={HistoryStyle.secondrow5}>Low</p>
+        <p className={HistoryStyle.secondrow6}>Rejected</p>
         </div>
 
         <div className={HistoryStyle.thirdrow}>
-        <p>#56768798034</p>
-        <p>Equipment Purchase</p>
-        <p>874,350</p>
-        <p>8/12/2020</p>
-        <p>Low</p>
-        <p>Disbursed</p>
+        <p className={HistoryStyle.thirdrow1}>#56768798034</p>
+        <p className={HistoryStyle.thirdrow2}>Equipment Purchase</p>
+        <p className={HistoryStyle.thirdrow3}>874,350</p>
+        <p className={HistoryStyle.thirdrow4}>8/12/2020</p>
+        <p className={HistoryStyle.thirdrow5}>Low</p>
+        <p className={HistoryStyle.thirdrow6}>Disbursed</p>
         </div>
 
         <div className={HistoryStyle.fourthrow}>
-        <p>#56789043597</p>
-        <p>Consumables</p>
-        <p>230,000</p>
-        <p>8/12/2020</p>
-        <p>Low</p>
-        <p>Processing</p>
+        <p className={HistoryStyle.fourthrow1}>#56789043597</p>
+        <p className={HistoryStyle.fourthrow2}>Consumables</p>
+        <p className={HistoryStyle.fourthrow3}>230,000</p>
+        <p className={HistoryStyle.fourthrow4}>8/12/2020</p>
+        <p className={HistoryStyle.fourthrow5}>Low</p>
+        <p className={HistoryStyle.fourthrow6}>Processing</p>
         </div>
 
         <div className={HistoryStyle.fifthrow}>
-        <p>#76678934867</p>
-        <p>Consumables</p>
-        <p>2,200,000</p>
-        <p>9/01/2020</p>
-        <p>High</p>
-        <p>Rejected</p>
+        <p className={HistoryStyle.fifthrow1}>#76678934867</p>
+        <p className={HistoryStyle.fifthrow2}>Consumables</p>
+        <p className={HistoryStyle.fifthrow3}>2,200,000</p>
+        <p className={HistoryStyle.fifthrow4}>9/01/2020</p>
+        <p className={HistoryStyle.fifthrow5}>High</p>
+        <p className={HistoryStyle.fifthrow6}>Rejected</p>
         </div>
       </div>
     </div>
