@@ -44,37 +44,42 @@
 .contentlist{
     height: 95%;
     background: var(--myColor_2);
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 2fr); */
     border: 1px solid red;
 }
 
 .headrow{
     display: flex;
+    grid-template-columns: repeat(6, 6fr);
     /* justify-content: space-evenly; */
 }
 
 .firstrow{
     display: flex;
-    
+    grid-template-columns: repeat(6, 6fr);
 }
 
 .secondrow{
     display: flex;
+    grid-template-columns: repeat(6, 6fr);
     /* justify-content: space-evenly; */
 }
 
 .thirdrow{
     display: flex;
+    grid-template-columns: repeat(6, 6fr);
     /* justify-content: space-evenly; */
 }
 
 .fourthrow{
     display: flex;
+    grid-template-columns: repeat(6, 6fr);
     /* justify-content: space-evenly; */
 }
 
 .fifthrow{
     display: flex;
+    grid-template-columns: repeat(6, 6fr);
     /* justify-content: space-evenly; */
 }
