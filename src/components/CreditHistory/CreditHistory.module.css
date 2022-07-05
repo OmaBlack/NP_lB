@@ -45,7 +45,7 @@
     height: 95%;
     background: var(--myColor_2);
     display: grid;
-    grid-template-columns: repeat(6, 6fr);
+    grid-template-columns: repeat(2, 2fr);
     border: 1px solid red;
 }
 
