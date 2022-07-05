@@ -10,7 +10,7 @@ import sided from "../../../images/sided.svg";
 
 
 
-const Sidebar = () => {
+const DashboardSidebar = () => {
     const [show, setShow] = useState(false);
 
     const display = () => {
@@ -62,6 +62,6 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar;
+export default DashboardSidebar;
 
 

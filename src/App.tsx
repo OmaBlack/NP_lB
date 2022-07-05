@@ -6,9 +6,9 @@ import Signup from "./components/signup/Signup";
 import ProjectFinancing from './components/projectFinancing/ProjectFinancing';
 import RequestSubmitted from './components/request-submitted/RequestSubmitted';
 import CreditHistory from './components/CreditHistory/CreditHistory';
-import DashboardSidebar from './components/common/DashboardSidebar/DashboardSidebar'
+import DashboardSidebar from './components/common/DashboardSidebar/DashboardSidebar';
 
-function App() {
+const App = () => {
   return (
     <>
     {/* <Signup/> */}
