@@ -1,9 +1,14 @@
 import React from "react";
 import HistoryStyle from "./CreditHistory.module.css";
 import blockdown from "../../images/blockdown.svg";
+import DashboardSidebar from '../common/DashboardSidebar/DashboardSidebar';
+import DashboardHeader from '../common/DashboardHeader/DashbordHeader';
 
 const CreditHistory = () => {
   return (
+    <>
+         <DashboardHeader />
+         <DashboardSidebar />
     <div className={HistoryStyle.container}>
       <div className={HistoryStyle.title}>
         <h1>Credit History</h1>
@@ -67,6 +72,7 @@ const CreditHistory = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

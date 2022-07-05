@@ -1,7 +1,13 @@
 import React, { useState } from 'react'
 import style from './Sidebar.module.css';
 import { Link } from "react-router-dom"
-import { Images } from '../../ComponentImages';
+import Iconr from "../../images/Iconr.svg";
+import Inbox from "../../images/Inbox.svg";
+import sidebarlogo from "../../images/sidebarlogo.svg";
+import warrowup from "../../images/warrowup.svg";
+import warrowdown from "../../images/warrowdown.svg";
+import sided from "../../images/sided.svg";
+
 
 
 function Sidebar() {
@@ -15,22 +21,22 @@ function Sidebar() {
   return (
     <aside className={style.sidebar}>
         <div>
-        <img src={Images.sidebarlogo} alt='nerve logo'  className={style.sidelogo}/>
+        <img src={sidebarlogo} alt='nerve logo'  className={style.sidelogo}/>
         </div>
         <div className={style.sideTag}>
             <ul>
                 <li className={style.dashboard}>
                     <Link to = "/dashboard" className={style.linkimg}>
-                        <img src = {Images.sided}  alt="icon" className ={style.Sidebar_icon}/>
+                        <img src = {sided}  alt="icon" className ={style.Sidebar_icon}/>
                         Dashboard
                     </Link>
                 </li>
 
                 <li className={style.fund}>
                     <Link to="#" className={style.linkimg}>
-                        <img src = {Images.Inbox}  alt="icon" className ={style.Sidebar_icon}/>
+                        <img src = {Inbox}  alt="icon" className ={style.Sidebar_icon}/>
                         <span>Funding</span>
-                        <span className={style.btn} onClick={display}>{show ? <img src={Images.warrowup} alt="a white arrow" />  : <img src={Images.warrowdown} alt="a white arrow" /> }</span>
+                        <span className={style.btn} onClick={display}>{show ? <img src={warrowup} alt="a white arrow" />  : <img src={warrowdown} alt="a white arrow" /> }</span>
                     </Link>
                 </li>
                 { show && 
@@ -45,7 +51,7 @@ function Sidebar() {
 
                 <li className={style.dashboard}>
                     <Link to = "/reports" className={style.linkimg}>
-                        <img src = {Images.Iconr}  alt="" className ={style.Sidebar_icon}/>
+                        <img src = {Iconr}  alt="" className ={style.Sidebar_icon}/>
                         Reports
                     </Link>
                 </li>
