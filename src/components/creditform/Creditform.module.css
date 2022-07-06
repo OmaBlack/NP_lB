@@ -1,7 +1,11 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+} */
+.creditcontainer{
+    position: relative;
+    height: 100vh;
 }
 
 .formcontainer{
@@ -10,11 +14,5 @@
     top: 80px;
     height: 89vh;
     width: 100%;
-    
-}
-
-
-.creditRequestForm{
-
     
 }

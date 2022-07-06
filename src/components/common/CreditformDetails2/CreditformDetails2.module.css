@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2family=Rubik:wght@400;500;700&display=swap');
+
+
+
+.pending {
+    transform: translateY(30%);
+}
+.radios{
+    max-width: 20%;
+    display: flex;        
+    display: -ms-flexbox;
+}
+.radios label:nth-of-type(1){
+    padding-right: 3rem;
+}
+
+.yes{
+    position: relative;
+}
+
+.yes span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.no{
+    width: 5rem;
+    position: relative;
+}
+
+.no span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.fundbtn{
+    width: 8.3125rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    background-color: #0B69FF;
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content:center;
+    -ms-justify-content:center;
+    align-items:center;
+    -ms-align-items:center;
+    margin-top: 2rem;
+}
+.fundbtn button{
+    background-color: #0B69FF;
+    border: none;
+    
+}
+.btntext{
+    color: #ffffff;
+    text-decoration: none;
+}
