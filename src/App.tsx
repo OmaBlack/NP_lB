@@ -16,8 +16,8 @@ const App = () => {
     {/* <Creditform /> */}
     {/* <ProjectFinancing /> */}
     {/* <RequestSubmitted /> */}
-    {/* <CreditHistory /> */}
-    <DashboardSidebar />
+    <CreditHistory />
+    {/* <DashboardSidebar /> */}
 
     </>
 
