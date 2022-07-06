@@ -13,10 +13,10 @@ const App = () => {
     <>
     {/* <Signup/> */}
     {/* <Login /> */}
-    {/* <Creditform /> */}
+    <Creditform />
     {/* <ProjectFinancing /> */}
     {/* <RequestSubmitted /> */}
-    <CreditHistory />
+    {/* <CreditHistory /> */}
     {/* <DashboardSidebar /> */}
 
     </>
