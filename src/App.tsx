@@ -15,6 +15,7 @@ import TemplateHolder5 from "./components/TemplateHolder/ApplicationSuccessfulTe
 import ModalAlert from "./components/Modals/ModalAlert";
 import "./Styles/global.css";
 import ModalAlreadyExist from "./components/Modals/ModalAlreadyExist";
+import EmailVerification from "./components/Pages/EmailVerified";
 
 function App() {
   const location = window.location.pathname;
@@ -37,6 +38,7 @@ function App() {
           <Route path="/successful" element={<TemplateHolder5 />} />
           <Route path="/modalAlert" element={<ModalAlert />} />
           <Route path="/modalAlreadyExist" element={<ModalAlreadyExist />} />
+          <Route path="/emailVerified" element={<EmailVerification />} />
         </Routes>
       </Router>
     </div>
