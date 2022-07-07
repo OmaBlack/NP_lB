@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+.creditRequestHeader{
+
+    width: 40%;
+   margin-bottom: 1.1rem;
+
+}
+
+.creditRequestHeader header{
+    font-size: 32px;
+    font-family: 'Rubik';
+    margin-bottom: 0.3rem;
+    font-weight: 400;
+}
+.creditRequestHeader p{
+
+    font-family: 'Rubik';
+    line-height: 1.5rem;
+    font-weight: 400;
+}
