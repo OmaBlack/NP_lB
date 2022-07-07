@@ -2,7 +2,7 @@ import React from "react";
 import style from './signup.module.css';
 import loginImg from "../../images/Rectangle12.svg"
 import LogSignComp from "../../componets/loginSignup/LogSignComp";
-import Square from "../common/Square/Square";
+import Square from "../Common/Square/Square";
 
 const Signup = () => {
 

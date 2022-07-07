@@ -1,18 +1,19 @@
 
 .squarecontainer{
     position: relative;
-    left: -41.5rem;
-    top: -57rem;
-    transform: scale(0.4, 0.35) ;
+    height: 49px;
+    left: -28rem;
+    top: -27rem;
+    transform: scale(0.4, 0.33) ;
 }
 
 .squarepart1{
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
 
 .squarepart2{
     display: flex;
-    gap: 0.5rem;
-    margin-top:0.5rem;
+    gap: 1.5rem;
+    margin-top:1.5rem;
 }

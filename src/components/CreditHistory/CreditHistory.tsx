@@ -3,8 +3,8 @@ import HistoryStyle from "./CreditHistory.module.css";
 import blockdown from "../../images/blockdown.svg";
 import sidelines from "../../images/sidelines.svg";
 import centerlines from "../../images/centerlines.svg";
-import DashboardSidebar from '../common/DashboardSidebar/DashboardSidebar';
-import DashboardHeader from '../common/DashboardHeader/DashbordHeader';
+import DashboardSidebar from '../Common/DashboardSidebar/DashboardSidebar';
+import DashboardHeader from '../Common/DashboardHeader/DashbordHeader';
 
 const CreditHistory = () => {
   return (

@@ -12,7 +12,10 @@
 .login_image{
     width: 55%;
 }
-
+/* .sqrimg{
+    position: absolute;
+    border: 1px solid red;
+} */
 
 .login_container img{
     width: 100%;
@@ -26,9 +29,6 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-}
-.login_main p{
-
 }
 
 .mainLoginForm{
@@ -82,10 +82,9 @@
     font-size: .875rem;
     line-height: 1.5rem;
     border-radius: 4px;
-
     flex: none;
-order: 0;
-flex-grow: 1;
+    order: 0;
+    flex-grow: 1;
     
 }
 
@@ -113,12 +112,12 @@ flex-grow: 1;
 }
 .signupLink{
     font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-align-items: center;
-text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-align: right;
 
 }
 
@@ -128,11 +127,29 @@ text-align: right;
 .trademark{
     align-self: center;
     font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-align-items: center;
-text-align: right;
-color: #7E858E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-align: right;
+    color: #7E858E;
 }
+
+/* .eclipse{ */
+    /* position: relative; */
+    /* width: 128px;
+    height:243px; */
+    /* width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    transform: translateX(-50rem) scale(0.5)
+    top: 5rem; */
+/* } */
+
+/* .eclipse {
+    border: 1px solid red;
+    transform: scale(0.2, 0.5);
+    /* width: 100%;
+    height: 100%; */
+/* } */ 

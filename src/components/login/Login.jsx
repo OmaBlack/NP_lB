@@ -2,6 +2,8 @@ import React from "react";
 import style from './Login.module.css';
 import loginImg from "../../images/Rectangle13.svg"
 import LogSignComp from "../../componets/loginSignup/LogSignComp";
+import Square from "../Common/Square/Square";
+import Eclipse from "../Common/Eclipse/Eclipse";
 
 const Login=()=>{
 
@@ -10,7 +12,9 @@ const Login=()=>{
         <div className={style.login_container}>
             <div className={style.login_image}>
                 <img src={loginImg} alt="login pic" />
+                <div className={style.sqrimg}><Square /></div>
             </div>
+            <div><Eclipse /></div>
             <div className={style.login_main}>
                 
                 <LogSignComp info = "Login to your account"/>
@@ -39,6 +43,7 @@ const Login=()=>{
                     </div>
                 </div>
             </div>
+           
         </div>
     )
 }
