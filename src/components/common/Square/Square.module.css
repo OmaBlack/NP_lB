@@ -1,0 +1,16 @@
+.squarecontainer{
+    /* width: 39%;
+    height: 39%; */
+    box-sizing: border-box;
+}
+
+.squarepart1{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.squarepart2{
+    display: flex;
+    gap: 0.5rem;
+    margin-top:0.5rem;
+}

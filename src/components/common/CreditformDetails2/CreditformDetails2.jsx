@@ -1,11 +1,9 @@
 import React from "react";
 import style from "./CreditformDetails2.module.css";
-import { Link }from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const CreditformDetails2 = () => {
-
   return (
-
     <div>
       <div className={style.pending}>
         <p>Do you have pending insurance claim?</p>
@@ -20,6 +18,13 @@ const CreditformDetails2 = () => {
           </label>
         </div>
       </div>
+      <div className={style.file_upload}>
+        <p>Upload History of insurance claims</p>
+        <header>ATTACHMENTS</header>
+        <div className={style.fileUploadBorder}>
+          <input type="file" className={style.custum_file_input} />
+        </div>
+      </div>
 
       <div>
         <div className={style.fundbtn}>
@@ -30,9 +35,8 @@ const CreditformDetails2 = () => {
           </button>
         </div>
       </div>
-      
     </div>
   );
-}
+};
 
 export default CreditformDetails2;

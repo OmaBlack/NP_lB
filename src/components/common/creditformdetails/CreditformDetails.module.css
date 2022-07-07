@@ -39,7 +39,7 @@ input{
     
 }
 select{
-    width: 17.63rem;
+    width: 16.63rem;
     height: 2.5rem;
     border: 1px solid #D7DFE9
 }
@@ -70,16 +70,16 @@ select{
 }
 
 .fileUploadBorder{
-    width: 25%;
-    height: 5rem;
+    width: 30%;
+    height: 4rem;
     border: 1px dotted #7E858E;
 }
 .file_upload p{
-    margin-bottom: 0.63rem;
+    margin-bottom: 0.6rem;
 }
 .file_upload header{
     color: #7E858E;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 .custum_file_input::before{
   content: 'Drag and drop files or click to upload';
@@ -88,14 +88,12 @@ select{
   height: 2.5rem;
   outline: none;
   line-height: 0rem;
-  padding: 2rem 2.69rem;
+  padding: 2rem 1.5rem;
   white-space: nowrap;
-  -webkit-user-select: none;
+  user-select: none;
   cursor: pointer;
   text-shadow: 1px 1px #fff;
   font-weight: 700;
   font-size: 10pt;
   color: #7E858E;
 }
-
-

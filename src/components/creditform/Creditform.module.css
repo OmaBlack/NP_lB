@@ -3,16 +3,26 @@
     padding: 0px;
     box-sizing: border-box;
 } */
-.creditcontainer{
-    position: relative;
-    height: 100vh;
-}
+
 
 .formcontainer{
-    position: absolute;
+    position: relative;
     left: 300px;
     top: 80px;
-    height: 89vh;
-    width: 100%;
-    
+    width: 75rem;
+    height: 64rem;
+    background-color: #FBFBFB;  
+    border: 1px solid red;
 }
+
+.creditcontainer{
+    position: absolute;
+    height: 100vh;
+    width: 1080px;
+    height: 865px;
+    border-radius: 19px;
+    background:#FFFFFF;
+    left: 5%;
+    border: 1px solid blue;
+    filter:drop-shadow(24px 0px, 0px rgba(0, 0, 0, 0.05))
+    }

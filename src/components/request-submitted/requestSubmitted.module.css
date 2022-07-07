@@ -22,16 +22,24 @@
 }
 
 .success{
-   
     margin-top: 72px;
-
 }
 
-.success i{
+.successimg {
+    position: relative;
+}
+
+.eclipseimg{
+    position: absolute;
+    left: 31.1rem;
+    bottom: 20.5rem;
+}
+
+/* .success i{
 
     font-size: 100px;
     color: #0B69FF;
-}
+} */
 
 .info{
     margin: 43px 0;

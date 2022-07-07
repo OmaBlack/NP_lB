@@ -8,18 +8,20 @@ import RequestSubmitted from './components/request-submitted/RequestSubmitted';
 import CreditHistory from './components/CreditHistory/CreditHistory';
 import DashboardSidebar from './components/common/DashboardSidebar/DashboardSidebar';
 import CreditformDetails2 from './components/common/CreditformDetails2/CreditformDetails2';
+import Square from "./components/common/Square/Square"
 
 const App = () => {
   return (
     <>
-    {/* <Signup/> */}
+    <Signup/>
     {/* <Login /> */}
     {/* <Creditform /> */}
     {/* <ProjectFinancing /> */}
     {/* <RequestSubmitted /> */}
     {/* <CreditHistory /> */}
     {/* <DashboardSidebar /> */}
-    <CreditformDetails2 />
+    {/* <CreditformDetails2 /> */}
+    {/* <Square /> */}
 
     </>
 
