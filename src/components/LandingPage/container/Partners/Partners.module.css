@@ -1,0 +1,22 @@
+.container {
+    width: 89.9375rem;
+    height: 27.3125rem;
+    background-color: var(--myColor_2);
+}
+
+.pheader{
+    text-align: center;
+    padding-top:7.0625rem;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--myColor_3);
+}
+
+.pimg {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.125rem;
+
+}
