@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 .login_container{
     display: flex;
-
 }
 
 .login_image{
@@ -153,4 +151,8 @@ color: #7E858E;
 
 .password{
     color: #171F46;
+}
+
+.groupimg{
+    transform: scale(0.5)
 }

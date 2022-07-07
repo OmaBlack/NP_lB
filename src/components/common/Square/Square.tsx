@@ -9,12 +9,12 @@ function square() {
   return (
     <div className={style.squarecontainer}>
         <div className={style.squarepart1}>
-        <img src = {rec1} alt="" />
-        <img src = {rec2} alt="" />
+          <img src={rec1} alt="" />
+          <img src={rec2} alt="" />
         </div>
         <div className={style.squarepart2}>
-        <img src = {rec3} alt="" />
-        <img src = {rec4} alt="" />
+          <img src={rec3} alt="" />
+          <img src={rec4} alt="" />
         </div>
         
     </div>

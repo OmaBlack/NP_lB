@@ -1,7 +1,9 @@
+
 .squarecontainer{
-    /* width: 39%;
-    height: 39%; */
-    box-sizing: border-box;
+    position: relative;
+    left: -41.5rem;
+    top: -57rem;
+    transform: scale(0.4, 0.35) ;
 }
 
 .squarepart1{

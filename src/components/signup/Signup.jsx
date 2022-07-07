@@ -2,7 +2,7 @@ import React from "react";
 import style from './signup.module.css';
 import loginImg from "../../images/Rectangle12.svg"
 import LogSignComp from "../../componets/loginSignup/LogSignComp";
-// import Square from "../common/Square/Square";
+import Square from "../common/Square/Square";
 
 const Signup = () => {
 
@@ -11,7 +11,7 @@ const Signup = () => {
         <div className={style.login_container}>
             <div className={style.login_image}>
                 <img src={loginImg} className={style.logimg}alt="login pic" />
-                {/* <div className={style.sqrimg}><Square /></div> */}
+                <div className={style.sqrimg}><Square /></div>
             </div>
             <div className={style.login_main}>
                 
