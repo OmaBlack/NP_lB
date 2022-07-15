@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2family=Rubik:wght@400;500;700&display=swap');
+
+
+
+.pending {
+    transform: translateY(30%);
+}
+.radios{
+    max-width: 20%;
+    display: flex;        
+    display: -ms-flexbox;
+}
+.radios label:nth-of-type(1){
+    padding-right: 3rem;
+}
+
+.yes{
+    position: relative;
+}
+
+.yes span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.no{
+    width: 5rem;
+    position: relative;
+}
+
+.no span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.fundbtn{
+    width: 5.0625rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    background-color: #0B69FF;
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content:center;
+    -ms-justify-content:center;
+    align-items:center;
+    -ms-align-items:center;
+    /* margin-top: 0.5rem; */
+}
+.fundbtn button{
+    background-color: #0B69FF;
+    border: none;
+    
+}
+.btntext{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.custum_file_input::-webkit-file-upload-button {
+    display: none;
+  }
+
+.file_upload input{
+    width: 20rem;
+    height: 5rem;
+    border: none
+    
+}
+.file_upload{
+    display: flex;
+    flex-direction: column;
+    margin: 2.6rem 0rem;
+    
+}
+
+.fileUploadBorder{
+    width: 30%;
+    height: 4rem;
+    border: 1px dotted #7E858E;
+}
+.file_upload p{
+    margin-bottom: 0.6rem;
+}
+.file_upload header{
+    color: #7E858E;
+    margin-bottom: 1rem;
+}
+.custum_file_input::before{
+  content: 'Drag and drop files or click to upload';
+  display: inline-block;
+  width: 18rem;
+  height: 2.5rem;
+  outline: none;
+  line-height: 0rem;
+  padding: 2rem 2.69rem;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  color: #7E858E;
+}
