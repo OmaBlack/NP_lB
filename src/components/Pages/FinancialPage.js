@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import "./FinancialPage.css";
+import Indicator3 from "../Indicator/indicator3";
 
 const ThirdPageDiv = () => {
   const navigate = useNavigate();
@@ -32,6 +33,7 @@ const ThirdPageDiv = () => {
 
   return (
     <div>
+      <Indicator3 />
       <div className="container">
         <h2>Additional Information</h2>
         <div className="small-text">
@@ -126,7 +128,7 @@ const ThirdPageDiv = () => {
           <div className="ba-fro">
             <Link to="/getInstanceLoan">
               <button className="back" placeholder="previous">
-                previous
+                Previous
               </button>
             </Link>
 

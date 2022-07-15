@@ -1,7 +1,7 @@
 import React from 'react'
 import FAQStyles from './FAQ.module.css';
 import { useState } from 'react';
-import { Images } from '../../../ComponentImages';
+import { Images } from '../../../../Assets/ComponentImages';
 
 const data = [
   {

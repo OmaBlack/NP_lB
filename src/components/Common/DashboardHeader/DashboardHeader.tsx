@@ -1,8 +1,8 @@
 import React from "react";
-import headerstyle from "./Header.module.css";
+import headerstyle from "./DashboardHeader.module.css";
 import { IoIosArrowForward } from "react-icons/io";
 
-function Header() {
+function DashboardHeader() {
   return (
     <div className={headerstyle.page_header}>
       <div className={headerstyle.page_header_wrapper}>
@@ -22,4 +22,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default DashboardHeader;

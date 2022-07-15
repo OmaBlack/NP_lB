@@ -38,14 +38,14 @@ h5{
 .num1{
     margin-left: 9px;
     font-size: 14px;
-    color: #0051CA;
+    color: var(--myColor_10);
 }
 
 .num2{
     margin-left: 11px;
     font-size: 14px;
     margin-left: 20px;
-    color:#B0CDFA
+    color:var(--myColor_13)
 
 }
 .num3{
@@ -53,14 +53,14 @@ h5{
     margin-left: 25px;
     font-size: 14px;
     line-height: 16px;
-    color: #B0CDFA;
+    color: var(--myColor_13);
 
 }
 
 .num4{
     margin-left: 17px;
     font-size: 14px;
-    color:#B0CDFA
+    color: var(--myColor_13)
 
 }
 
@@ -73,7 +73,7 @@ h5{
 .img-lightblue2 {
     margin-left: 20px;
     margin-top: 15px;
-    color: #B0CDFA;
+    color: var(--myColor_13);
     opacity: 60%;
 
 }
@@ -81,14 +81,14 @@ h5{
 .img-lightblue3{
     margin-left: 25px;
     margin-top: 15px;
-    color: #B0CDFA;
+    color: var(--myColor_13);
     opacity: 60%;
 }
 
 .img-lightblue4 {
     margin-left: 20px;
     margin-top: 15px;
-    color: #B0CDFA;
+    color: var(--myColor_13);
     opacity: 60%;
 
 }
@@ -107,7 +107,7 @@ h5{
     font-weight: 500px;
     margin-top: 6px;
     line-height: 16px;
-    color: #B0CDFA;
+    color: var(--myColor_13);
 
 }
 
@@ -118,7 +118,7 @@ h5{
     text-align: center;
     margin-top: 6px;
     line-height: 16px;
-    color: #B0CDFA;
+    color: var(--myColor_13);
     
 
 }
@@ -129,7 +129,7 @@ h5{
     margin-left: 6px;
     margin-top: 6px;
     line-height: 16px;
-    color: #0051CA;
+    color: var(--myColor_10);
 
 }
 
@@ -139,6 +139,6 @@ h5{
     margin-left: 16px;
     margin-top: 6px;
     line-height: 16px;
-    color: #B0CDFA;
+    color: var(--myColor_13);
 
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import AlertStyles from "./modalStep2.module.css";
-import { Images } from "../../ComponentImages";
+import { Images } from "../../../Assets/ComponentImages";
 
 
 const ModalStep2 = () => {

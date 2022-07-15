@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "./Funding.module.css";
-import Header from "../../Common/Header/Header";
+import DashboardHeader from "../../Common/DashboardHeader/DashboardHeader";
 
 function Funding() {
   return (
     <div>
-      <Header />
+      <DashboardHeader />
       <div className={style.fund_container}>
         <div className={style.head_wrapper}>
           <div className={style.heading}>
@@ -77,7 +77,9 @@ function Funding() {
             <div>
               <div className={style.fundbtn}>
                 <button>
-                  <Link to="#" className={style.btntext}>Pay With Nerve</Link>
+                  <Link to="#" className={style.btntext}>
+                    Pay With Nerve
+                  </Link>
                 </button>
               </div>
             </div>

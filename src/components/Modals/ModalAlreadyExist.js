@@ -1,6 +1,6 @@
 import React from "react";
 import '../Modals/ModalAlreadyExist.css';
-import Image  from "../../Images/redIcon.png";
+import Image  from "../../Assets/Images/redIcon.png";
 
 
 
