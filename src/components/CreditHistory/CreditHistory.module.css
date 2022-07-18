@@ -6,7 +6,6 @@
     position: relative;
     left: 17%;
     top: 4.375rem;
-    border: 1px solid red;
 }
 
 .title{
@@ -539,3 +538,5 @@
     display: grid;
     place-items: center;
 }
+
+  

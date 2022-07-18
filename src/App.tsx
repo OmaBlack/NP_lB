@@ -52,7 +52,7 @@ function App(){
           <Route path="/creditform" element={<Creditform />} />
           <Route path="/projectfinancing"element={<ProjectFinancing />} />
           <Route path="/requestsubmitted" element={<RequestSubmitted />} />
-          <Route path="credithistory" element={<CreditHistory />} />
+          <Route path="/credithistory" element={<CreditHistory />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
     </div>

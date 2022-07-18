@@ -28,6 +28,8 @@ list-style: none;
     --myColor_14: #FF0000;
     --myColor_15: #7E858E;
     --myColor_16: #2DCA73;
+    --myColor_17: #FBFBFB;
+    --myColor_18: #7E858E;
 
 
 
@@ -35,21 +37,6 @@ list-style: none;
 
 
 
-:root {
-  --myColor_1: #E5E5E5;
-  --myColor_2: #FFFFFF;
-  --myColor_3: #000000;
-  --myColor_4: #FFB800;
-  --myColor_5: #0B69FF;
-  --myColor_6: #171F46;
-  --myColor_7: #4F4F4F;
-  --myColor_8: #EBEBEB;
-  --myColor_9: #D7DFE9;
-  --myColor_10: #0051CA;
-  --myColor_11: #6B38FB;
-  --myColor_12: #F4F4F4;
-  --myColor_17: #FBFBFB;
-  --myColor_18: #7E858E;
-}
+
 
 
