@@ -1,7 +1,7 @@
 import React from "react";
 import "./EmailVerified.css";
 import logo from "../../Assets/Images/logo.png";
-import greenIcon from "../../Assets/Images/greenIcon.png";
+// import greenIcon from "../../Assets/Images/greenIcon.png";
 import { FaCheck } from "react-icons/fa";
 
 
